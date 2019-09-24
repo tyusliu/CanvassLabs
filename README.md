@@ -1,2 +1,2 @@
 # CanvassLabs
-Parsing data in the CVE.
+Canvass Labs is a cyber-security company with an AI focus. Essentially, we use AI to detect vulnerabilities in companies' source code and suggest fixes for these vulnerabilities. Over the summer, I gathered data from vulnerability databases and communicated my findings to my boss, which ultimately shaped features in our AI model. In addition, I also tagged large data sets by hand in order to help train the model.
