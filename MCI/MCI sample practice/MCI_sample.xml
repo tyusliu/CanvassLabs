@@ -1,0 +1,723 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<index>
+<info>
+ <indexPath>/Users/tyusliu/Canvass Labs/Maven</indexPath>
+ <fields count='31'>
+  <field name='1'/>
+  <field name='Bundle-Description'/>
+  <field name='Bundle-DocURL'/>
+  <field name='Bundle-License'/>
+  <field name='Bundle-Name'/>
+  <field name='Bundle-SymbolicName'/>
+  <field name='Bundle-Version'/>
+  <field name='DESCRIPTOR'/>
+  <field name='Export-Package'/>
+  <field name='Export-Service'/>
+  <field name='IDXINFO'/>
+  <field name='Import-Package'/>
+  <field name='Require-Bundle'/>
+  <field name='a'/>
+  <field name='allGroups'/>
+  <field name='allGroupsList'/>
+  <field name='artifactId'/>
+  <field name='d'/>
+  <field name='del'/>
+  <field name='g'/>
+  <field name='groupId'/>
+  <field name='i'/>
+  <field name='l'/>
+  <field name='m'/>
+  <field name='n'/>
+  <field name='p'/>
+  <field name='rootGroups'/>
+  <field name='rootGroupsList'/>
+  <field name='u'/>
+  <field name='v'/>
+  <field name='version'/>
+ </fields>
+ <numDocs>10977865</numDocs>
+ <maxDoc>10977865</maxDoc>
+ <numDeletedDocs>0</numDeletedDocs>
+ <numTerms>22331898</numTerms>
+ <hasDeletions>false</hasDeletions>
+ <lastModified>N/A</lastModified>
+ <indexVersion>1563214885253</indexVersion>
+ <indexFormat>
+  <genericName>Lucene 3.1 (-11)</genericName>
+  <capabilities>lock-less, single norms, shared doc store, checksum, del count, omitTf, user data, diagnostics, hasVectors</capabilities>
+ </indexFormat>
+ <directoryImpl>org.apache.lucene.store.NIOFSDirectory</directoryImpl>
+ <files count='11'>
+  <file name='_a2.fdt' size='4570212268' func='null'/>
+  <file name='_a2.fdx' size='87822924' func='null'/>
+  <file name='_a2.fnm' size='314' func='null'/>
+  <file name='_a2.frq' size='546966451' func='null'/>
+  <file name='_a2.nrm' size='274446629' func='null'/>
+  <file name='_a2.prx' size='625286725' func='null'/>
+  <file name='_a2.tii' size='7012885' func='null'/>
+  <file name='_a2.tis' size='612102528' func='null'/>
+  <file name='segments.gen' size='20' func='generation number - global file'/>
+  <file name='segments_2' size='256' func='per-commit list of segments and user data'/>
+  <file name='timestamp' size='8' func='null'/>
+ </files>
+ <commits count='1'>
+  <commit segment='segments_2' segCount='1' deleted='false' files='9'>
+   <file name='_a2.fdx'/>
+   <file name='_a2.prx'/>
+   <file name='_a2.fdt'/>
+   <file name='_a2.nrm'/>
+   <file name='segments_2'/>
+   <file name='_a2.fnm'/>
+   <file name='_a2.frq'/>
+   <file name='_a2.tii'/>
+   <file name='_a2.tis'/>
+  </commit>
+ </commits>
+ <topTerms count='50'>
+  <term field='p' text='jar' docFreq='9117524'/>
+  <term field='version' text='0' docFreq='6302344'/>
+  <term field='groupId' text='org' docFreq='5566816'/>
+  <term field='version' text='1' docFreq='5043649'/>
+  <term field='groupId' text='com' docFreq='3340582'/>
+  <term field='version' text='2' docFreq='3336589'/>
+  <term field='l' text='sources' docFreq='3084656'/>
+  <term field='l' text='javadoc' docFreq='2779767'/>
+  <term field='d' text='for' docFreq='2283457'/>
+  <term field='version' text='3' docFreq='2144890'/>
+  <term field='version' text='4' docFreq='1668512'/>
+  <term field='version' text='5' docFreq='1607081'/>
+  <term field='d' text='the' docFreq='1422572'/>
+  <term field='artifactId' text='2' docFreq='1353701'/>
+  <term field='version' text='6' docFreq='1298757'/>
+  <term field='artifactId' text='org' docFreq='1037264'/>
+  <term field='groupId' text='io' docFreq='935544'/>
+  <term field='groupId' text='wso2' docFreq='926911'/>
+  <term field='d' text='a' docFreq='893922'/>
+  <term field='groupId' text='carbon' docFreq='870706'/>
+  <term field='d' text='java' docFreq='842825'/>
+  <term field='version' text='7' docFreq='842684'/>
+  <term field='n' text='api' docFreq='824879'/>
+  <term field='n' text='wso2' docFreq='803034'/>
+  <term field='artifactId' text='wso2' docFreq='769369'/>
+  <term field='d' text='and' docFreq='762989'/>
+  <term field='artifactId' text='api' docFreq='762980'/>
+  <term field='artifactId' text='carbon' docFreq='755932'/>
+  <term field='d' text='to' docFreq='735203'/>
+  <term field='version' text='8' docFreq='720712'/>
+  <term field='p' text='pom' docFreq='720126'/>
+  <term field='n' text='carbon' docFreq='718805'/>
+  <term field='groupId' text='apache' docFreq='671834'/>
+  <term field='Bundle-SymbolicName' text='org' docFreq='650207'/>
+  <term field='d' text='with' docFreq='640968'/>
+  <term field='version' text='9' docFreq='614061'/>
+  <term field='d' text='of' docFreq='596423'/>
+  <term field='Import-Package' text='org' docFreq='595775'/>
+  <term field='Import-Package' text='version' docFreq='593316'/>
+  <term field='artifactId' text='11' docFreq='592024'/>
+  <term field='d' text='that' docFreq='584557'/>
+  <term field='n' text='java' docFreq='579347'/>
+  <term field='d' text='module' docFreq='572088'/>
+  <term field='d' text='client' docFreq='563113'/>
+  <term field='Bundle-License' text='org' docFreq='561439'/>
+  <term field='version' text='11' docFreq='554673'/>
+  <term field='Bundle-License' text='http' docFreq='548019'/>
+  <term field='artifactId' text='core' docFreq='544968'/>
+  <term field='Export-Package' text='org' docFreq='541899'/>
+  <term field='Export-Package' text='uses' docFreq='541428'/>
+ </topTerms>
+</info>
+<doc id='0'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>40b01f5b142540696d57e6673d0bdc5bdcce151a</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>Yet (Another Document) Object Model</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684157000|52898|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018114</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>YOM</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yom|yom|1.0-alpha-2|NA</val>
+</field>
+</doc>
+<doc id='1'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>948b3fd169634d69612ac7f7a5af231024f36234</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684157000|54649|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018187</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yom|yom|1.0-alpha-1|NA</val>
+</field>
+</doc>
+<doc id='2'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>71efbceba06f735f6f7d53f180c13580e72b97e4</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1106902438000|38669|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018237</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>ymsg|ymsg-test|0.6|NA</val>
+</field>
+</doc>
+<doc id='3'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>f10b9f6927aeb6020387303a10d5044f30baa3b5</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1106902438000|102184|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018271</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>ymsg|ymsg-support|0.6|NA</val>
+</field>
+</doc>
+<doc id='4'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>bc24f198dd7b69db8934b3feb5997fdd088a2591</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1117532192000|129222|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018353</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>ymsg|ymsg-network|0.6.1|NA</val>
+</field>
+</doc>
+<doc id='5'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>0023e81b77ca92e1d269711fba73110b13fca44e</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1106902436000|106169|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018419</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>ymsg|ymsg-network|0.6|NA</val>
+</field>
+</doc>
+<doc id='6'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>23874d0cb5fe10202f53155376a51bacb52cd2a1</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1176528632000|652634|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018478</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|yan|5.0.2|NA</val>
+</field>
+</doc>
+<doc id='7'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>35e3d66fe2f30faf99b21ecfb514e81fb5f7dc05</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1156614927000|650667|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018512</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|yan|5.0|NA</val>
+</field>
+</doc>
+<doc id='8'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>8df8d072c9b0325a7a3980a702205e5f1a0cc8b9</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1176528632000|649755|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018552</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|yan|1.0|NA</val>
+</field>
+</doc>
+<doc id='9'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>4746a1974386ba3689058b3a1838ab9f31e07095</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1140816736000|647832|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018574</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|yan|0.9.1|NA</val>
+</field>
+</doc>
+<doc id='10'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>4cb6423a40603e6781897d6d500c519e6d7358d3</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1138642535000|608817|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018649</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|yan|0.9|NA</val>
+</field>
+</doc>
+<doc id='11'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>77f6459b6c58250bdf1aae5c52e58f8d6966faec</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1137649481000|608817|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018703</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|yan|0.8.3|NA</val>
+</field>
+</doc>
+<doc id='12'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>9e1d4c354b9fc036552b5e6d57707348f4209aa7</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1137187882000|580539|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018756</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|yan|0.8.2|NA</val>
+</field>
+</doc>
+<doc id='13'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>367bc30d4f9283053ac4de144fe83f99c262c6f1</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1176528632000|97542|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018799</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|jfunutil|5.0.2|NA</val>
+</field>
+</doc>
+<doc id='14'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>367bc30d4f9283053ac4de144fe83f99c262c6f1</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1176528632000|97542|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018815</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|jfunutil|1.0|NA</val>
+</field>
+</doc>
+<doc id='15'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>9c05330cd89cf25c102b63ceec11568ede968396</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1139060006000|70623|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018829</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|jfunutil|0.9.1|NA</val>
+</field>
+</doc>
+<doc id='16'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>4b963ec206734f8ba78480d2834749c5f4274aa7</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1138642535000|66347|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018863</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|jfunutil|0.9|NA</val>
+</field>
+</doc>
+<doc id='17'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>4b963ec206734f8ba78480d2834749c5f4274aa7</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1137562417000|66347|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018910</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|jfunutil|0.8.3|NA</val>
+</field>
+</doc>
+<doc id='18'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>33f8ead2bc238a23ff1fa5a1ed43647231c47a94</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1137187882000|65609|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018940</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|jfunutil|0.8.2|NA</val>
+</field>
+</doc>
+<doc id='19'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>024d34538a352323f94284434d28332716f31131</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889992000|1796876|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018990</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xxl</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xxl|xxl|1.0|NA</val>
+</field>
+</doc>
+<doc id='20'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>ff5781304358089c5899870bab5f86d620a7ea5c</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>Enxtensible-TIFF-JAI is a rewrite of the original TIFF codec by Sun</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122890007000|49336|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019068</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>Extensible-TIFF-JAI</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xtiff-jai|xtiff-jai|beta-0.3|NA</val>
+</field>
+</doc>
+<doc id='21'>
+<field name='i' flags='------S--------------'>
+<val>null|1182839150000|-1|0|0|0|pom</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019089</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|1.2.2|NA</val>
+</field>
+</doc>
+<doc id='22'>
+<field name='i' flags='------S--------------'>
+<val>null|1182839149000|-1|0|0|0|pom</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019090</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|1.2.1|NA</val>
+</field>
+</doc>
+<doc id='23'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>3e6ab37c97d87c1f985b7d3c1d269f23023406e9</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1156614927000|342335|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019092</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|1.2|NA</val>
+</field>
+</doc>
+<doc id='24'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>5a804b7f565e4079c298df25cf05be078cb152aa</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1137346857000|261710|1|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019139</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|1.1.3|NA</val>
+</field>
+</doc>
+<doc id='25'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>ba6d9394935b48be08a0d1dd682f80092cda36d8</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1161285791000|151049|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019202</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|1.1.3|sources|jar</val>
+</field>
+</doc>
+<doc id='26'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>cea9434a725f8e0a1951d33fcaec63906c15c1d5</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>zip|1122889990000|2164271|0|0|0|zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019237</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|1.1.2|NA</val>
+</field>
+</doc>
+<doc id='27'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>f879941bc41b4eabf7f51c702402f95a39e2a739</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>zip|1122889990000|2712904|0|0|0|zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019239</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|1.1.1|NA</val>
+</field>
+</doc>
+<doc id='28'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>a9ccd7c5a0b22bfc49b734b0b33118b442eaf277</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>zip|1122889991000|2649982|0|0|0|zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019241</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|1.1|NA</val>
+</field>
+</doc>
+<doc id='29'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>1392b80bb0b91c1cf990afc97322512ce0a6d3c3</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>zip|1122889987000|1555466|0|0|0|zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019243</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|1.0.2|NA</val>
+</field>
+</doc>
+<doc id='30'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>d158ee5a090cd4c2f9efe0067ec954ffef0ee34c</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>zip|1122889986000|1789616|0|0|0|zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019245</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|1.0.1|NA</val>
+</field>
+</doc>
+<doc id='31'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>e4336eeae47ef9762ef441ffc54a630ce7df1887</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>zip|1122889986000|1298621|0|0|0|zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019247</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|1.0-rc1|NA</val>
+</field>
+</doc>
+<doc id='32'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>cc8b11982b0dd105f2fbaa4983e620e7c0b89d44</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>zip|1122889989000|1608031|0|0|0|zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019249</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|1.0|NA</val>
+</field>
+</doc>
+<doc id='33'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>956a5c2df8e69d7157ac992a642672731b40f962</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>zip|1122889985000|1243425|0|0|0|zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019251</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|0.6-rc1|NA</val>
+</field>
+</doc>
+<doc id='34'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>d19389dda29d59e55d6a7ea5903a8e1e4b789e8c</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>zip|1122889986000|1264238|0|0|0|zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019253</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|0.6|NA</val>
+</field>
+</doc>
+<doc id='35'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>fc41cf7e548ff733431c3716633a87456c37965e</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684156000|79234|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019256</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|0.5|NA</val>
+</field>
+</doc>
+<doc id='36'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>c5982b268fe8ec284bd13fe723bad7c64571b789</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889992000|66937|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019283</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|0.4|NA</val>
+</field>
+</doc>
+<doc id='37'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>61845a3a0861e1331a8a80ae89b36f583ea13943</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684156000|58462|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019312</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|0.3|NA</val>
+</field>
+</doc>
+<doc id='38'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>59740df7a36ec9e75e48927673fd25d006b7a3e7</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>zip|1122889985000|778762|0|0|0|zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019341</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|0.2|NA</val>
+</field>
+</doc>
+<doc id='39'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>947402cfc8c6f1b528f03c2696939f5e76e3ec85</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>zip|1122889985000|62884|2|2|0|zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019342</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|0.2|src|zip</val>
+</field>
+</doc>
+<doc id='40'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>aa5edf398f7c9451782d3f1aac68f11b91aa8469</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>tar.gz|1122889985000|23943|2|2|0|tar.gz</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019343</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|0.2|src|tar.gz</val>
+</field>
+</doc>
+<doc id='41'>
+<field name='i' flags='------S--------------'>
+<val>distribution-zip|1162775420000|62884|2|2|0|distribution-zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019344</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|0.2|src|distribution-zip</val>
+</field>
+</doc>
+</index>

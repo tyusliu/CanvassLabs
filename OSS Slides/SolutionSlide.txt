@@ -1,0 +1,7 @@
+Solution:
+
+  ∙ Create Databases:
+    - Find package names/versions in NVD
+    - Find vulnerable code in open source
+  ∙ Scan your source to find vulnerabilities
+  ∙ Report the vulnerable code and its fix

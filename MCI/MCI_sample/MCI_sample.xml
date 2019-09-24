@@ -1,0 +1,3417 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<index>
+<info>
+ <indexPath>/home/tyus/Canvass_Labs</indexPath>
+ <fields count='31'>
+  <field name='1'/>
+  <field name='Bundle-Description'/>
+  <field name='Bundle-DocURL'/>
+  <field name='Bundle-License'/>
+  <field name='Bundle-Name'/>
+  <field name='Bundle-SymbolicName'/>
+  <field name='Bundle-Version'/>
+  <field name='DESCRIPTOR'/>
+  <field name='Export-Package'/>
+  <field name='Export-Service'/>
+  <field name='IDXINFO'/>
+  <field name='Import-Package'/>
+  <field name='Require-Bundle'/>
+  <field name='a'/>
+  <field name='allGroups'/>
+  <field name='allGroupsList'/>
+  <field name='artifactId'/>
+  <field name='d'/>
+  <field name='del'/>
+  <field name='g'/>
+  <field name='groupId'/>
+  <field name='i'/>
+  <field name='l'/>
+  <field name='m'/>
+  <field name='n'/>
+  <field name='p'/>
+  <field name='rootGroups'/>
+  <field name='rootGroupsList'/>
+  <field name='u'/>
+  <field name='v'/>
+  <field name='version'/>
+ </fields>
+ <numDocs>11016522</numDocs>
+ <maxDoc>11016522</maxDoc>
+ <numDeletedDocs>0</numDeletedDocs>
+ <numTerms>22410037</numTerms>
+ <hasDeletions>false</hasDeletions>
+ <lastModified>N/A</lastModified>
+ <indexVersion>1563404733101</indexVersion>
+ <indexFormat>
+  <genericName>Lucene 3.1 (-11)</genericName>
+  <capabilities>lock-less, single norms, shared doc store, checksum, del count, omitTf, user data, diagnostics, hasVectors</capabilities>
+ </indexFormat>
+ <directoryImpl>org.apache.lucene.store.NIOFSDirectory</directoryImpl>
+ <files count='11'>
+  <file name='_a3.fdt' size='4582720341' func='null'/>
+  <file name='_a3.fdx' size='88132180' func='null'/>
+  <file name='_a3.fnm' size='314' func='null'/>
+  <file name='_a3.frq' size='548687132' func='null'/>
+  <file name='_a3.nrm' size='275413054' func='null'/>
+  <file name='_a3.prx' size='626810171' func='null'/>
+  <file name='_a3.tii' size='7041075' func='null'/>
+  <file name='_a3.tis' size='614256305' func='null'/>
+  <file name='segments.gen' size='20' func='generation number - global file'/>
+  <file name='segments_2' size='262' func='per-commit list of segments and user data'/>
+  <file name='timestamp' size='8' func='null'/>
+ </files>
+ <commits count='1'>
+  <commit segment='segments_2' segCount='1' deleted='false' files='9'>
+   <file name='_a3.prx'/>
+   <file name='_a3.fdt'/>
+   <file name='_a3.fnm'/>
+   <file name='_a3.frq'/>
+   <file name='_a3.fdx'/>
+   <file name='_a3.nrm'/>
+   <file name='segments_2'/>
+   <file name='_a3.tis'/>
+   <file name='_a3.tii'/>
+  </commit>
+ </commits>
+ <topTerms count='50'>
+  <term field='p' text='jar' docFreq='9153837'/>
+  <term field='version' text='0' docFreq='6323847'/>
+  <term field='groupId' text='org' docFreq='5576925'/>
+  <term field='version' text='1' docFreq='5062576'/>
+  <term field='groupId' text='com' docFreq='3355645'/>
+  <term field='version' text='2' docFreq='3347331'/>
+  <term field='l' text='sources' docFreq='3096441'/>
+  <term field='l' text='javadoc' docFreq='2791036'/>
+  <term field='d' text='for' docFreq='2297837'/>
+  <term field='version' text='3' docFreq='2151863'/>
+  <term field='version' text='4' docFreq='1672365'/>
+  <term field='version' text='5' docFreq='1611033'/>
+  <term field='d' text='the' docFreq='1430971'/>
+  <term field='artifactId' text='2' docFreq='1359086'/>
+  <term field='version' text='6' docFreq='1302464'/>
+  <term field='artifactId' text='org' docFreq='1037488'/>
+  <term field='groupId' text='io' docFreq='940194'/>
+  <term field='groupId' text='wso2' docFreq='926911'/>
+  <term field='d' text='a' docFreq='897062'/>
+  <term field='groupId' text='carbon' docFreq='870706'/>
+  <term field='version' text='7' docFreq='849699'/>
+  <term field='d' text='java' docFreq='849276'/>
+  <term field='n' text='api' docFreq='826088'/>
+  <term field='n' text='wso2' docFreq='803034'/>
+  <term field='artifactId' text='wso2' docFreq='769369'/>
+  <term field='d' text='and' docFreq='765655'/>
+  <term field='artifactId' text='api' docFreq='764277'/>
+  <term field='artifactId' text='carbon' docFreq='755932'/>
+  <term field='d' text='to' docFreq='737545'/>
+  <term field='version' text='8' docFreq='723223'/>
+  <term field='p' text='pom' docFreq='721352'/>
+  <term field='n' text='carbon' docFreq='718805'/>
+  <term field='groupId' text='apache' docFreq='674039'/>
+  <term field='Bundle-SymbolicName' text='org' docFreq='651730'/>
+  <term field='d' text='with' docFreq='646146'/>
+  <term field='version' text='9' docFreq='616307'/>
+  <term field='d' text='of' docFreq='597780'/>
+  <term field='Import-Package' text='org' docFreq='596675'/>
+  <term field='Import-Package' text='version' docFreq='594278'/>
+  <term field='artifactId' text='11' docFreq='593372'/>
+  <term field='d' text='that' docFreq='589685'/>
+  <term field='n' text='java' docFreq='585121'/>
+  <term field='d' text='module' docFreq='577402'/>
+  <term field='d' text='client' docFreq='568445'/>
+  <term field='Bundle-License' text='org' docFreq='562149'/>
+  <term field='version' text='11' docFreq='558201'/>
+  <term field='Bundle-License' text='http' docFreq='548321'/>
+  <term field='artifactId' text='core' docFreq='546474'/>
+  <term field='Export-Package' text='org' docFreq='542676'/>
+  <term field='Export-Package' text='uses' docFreq='542138'/>
+ </topTerms>
+</info>
+<doc id='0'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>40b01f5b142540696d57e6673d0bdc5bdcce151a</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>Yet (Another Document) Object Model</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684157000|52898|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018114</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>YOM</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yom|yom|1.0-alpha-2|NA</val>
+</field>
+</doc>
+<doc id='1'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>948b3fd169634d69612ac7f7a5af231024f36234</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684157000|54649|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018187</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yom|yom|1.0-alpha-1|NA</val>
+</field>
+</doc>
+<doc id='2'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>71efbceba06f735f6f7d53f180c13580e72b97e4</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1106902438000|38669|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018237</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>ymsg|ymsg-test|0.6|NA</val>
+</field>
+</doc>
+<doc id='3'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>f10b9f6927aeb6020387303a10d5044f30baa3b5</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1106902438000|102184|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018271</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>ymsg|ymsg-support|0.6|NA</val>
+</field>
+</doc>
+<doc id='4'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>bc24f198dd7b69db8934b3feb5997fdd088a2591</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1117532192000|129222|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018353</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>ymsg|ymsg-network|0.6.1|NA</val>
+</field>
+</doc>
+<doc id='5'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>0023e81b77ca92e1d269711fba73110b13fca44e</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1106902436000|106169|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018419</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>ymsg|ymsg-network|0.6|NA</val>
+</field>
+</doc>
+<doc id='6'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>23874d0cb5fe10202f53155376a51bacb52cd2a1</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1176528632000|652634|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018478</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|yan|5.0.2|NA</val>
+</field>
+</doc>
+<doc id='7'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>35e3d66fe2f30faf99b21ecfb514e81fb5f7dc05</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1156614927000|650667|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018512</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|yan|5.0|NA</val>
+</field>
+</doc>
+<doc id='8'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>8df8d072c9b0325a7a3980a702205e5f1a0cc8b9</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1176528632000|649755|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018552</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|yan|1.0|NA</val>
+</field>
+</doc>
+<doc id='9'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>4746a1974386ba3689058b3a1838ab9f31e07095</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1140816736000|647832|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018574</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|yan|0.9.1|NA</val>
+</field>
+</doc>
+<doc id='10'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>4cb6423a40603e6781897d6d500c519e6d7358d3</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1138642535000|608817|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018649</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|yan|0.9|NA</val>
+</field>
+</doc>
+<doc id='11'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>77f6459b6c58250bdf1aae5c52e58f8d6966faec</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1137649481000|608817|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018703</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|yan|0.8.3|NA</val>
+</field>
+</doc>
+<doc id='12'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>9e1d4c354b9fc036552b5e6d57707348f4209aa7</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1137187882000|580539|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018756</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|yan|0.8.2|NA</val>
+</field>
+</doc>
+<doc id='13'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>367bc30d4f9283053ac4de144fe83f99c262c6f1</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1176528632000|97542|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018799</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|jfunutil|5.0.2|NA</val>
+</field>
+</doc>
+<doc id='14'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>367bc30d4f9283053ac4de144fe83f99c262c6f1</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1176528632000|97542|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018815</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|jfunutil|1.0|NA</val>
+</field>
+</doc>
+<doc id='15'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>9c05330cd89cf25c102b63ceec11568ede968396</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1139060006000|70623|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018829</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|jfunutil|0.9.1|NA</val>
+</field>
+</doc>
+<doc id='16'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>4b963ec206734f8ba78480d2834749c5f4274aa7</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1138642535000|66347|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018863</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|jfunutil|0.9|NA</val>
+</field>
+</doc>
+<doc id='17'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>4b963ec206734f8ba78480d2834749c5f4274aa7</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1137562417000|66347|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018910</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|jfunutil|0.8.3|NA</val>
+</field>
+</doc>
+<doc id='18'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>33f8ead2bc238a23ff1fa5a1ed43647231c47a94</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1137187882000|65609|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018940</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>yan|jfunutil|0.8.2|NA</val>
+</field>
+</doc>
+<doc id='19'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>024d34538a352323f94284434d28332716f31131</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889992000|1796876|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434018990</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xxl</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xxl|xxl|1.0|NA</val>
+</field>
+</doc>
+<doc id='20'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>ff5781304358089c5899870bab5f86d620a7ea5c</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>Enxtensible-TIFF-JAI is a rewrite of the original TIFF codec by Sun</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122890007000|49336|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019068</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>Extensible-TIFF-JAI</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xtiff-jai|xtiff-jai|beta-0.3|NA</val>
+</field>
+</doc>
+<doc id='21'>
+<field name='i' flags='------S--------------'>
+<val>null|1182839150000|-1|0|0|0|pom</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019089</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|1.2.2|NA</val>
+</field>
+</doc>
+<doc id='22'>
+<field name='i' flags='------S--------------'>
+<val>null|1182839149000|-1|0|0|0|pom</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019090</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|1.2.1|NA</val>
+</field>
+</doc>
+<doc id='23'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>3e6ab37c97d87c1f985b7d3c1d269f23023406e9</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1156614927000|342335|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019092</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|1.2|NA</val>
+</field>
+</doc>
+<doc id='24'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>5a804b7f565e4079c298df25cf05be078cb152aa</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1137346857000|261710|1|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019139</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|1.1.3|NA</val>
+</field>
+</doc>
+<doc id='25'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>ba6d9394935b48be08a0d1dd682f80092cda36d8</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1161285791000|151049|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019202</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|1.1.3|sources|jar</val>
+</field>
+</doc>
+<doc id='26'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>cea9434a725f8e0a1951d33fcaec63906c15c1d5</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>zip|1122889990000|2164271|0|0|0|zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019237</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|1.1.2|NA</val>
+</field>
+</doc>
+<doc id='27'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>f879941bc41b4eabf7f51c702402f95a39e2a739</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>zip|1122889990000|2712904|0|0|0|zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019239</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|1.1.1|NA</val>
+</field>
+</doc>
+<doc id='28'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>a9ccd7c5a0b22bfc49b734b0b33118b442eaf277</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>zip|1122889991000|2649982|0|0|0|zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019241</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|1.1|NA</val>
+</field>
+</doc>
+<doc id='29'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>1392b80bb0b91c1cf990afc97322512ce0a6d3c3</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>zip|1122889987000|1555466|0|0|0|zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019243</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|1.0.2|NA</val>
+</field>
+</doc>
+<doc id='30'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>d158ee5a090cd4c2f9efe0067ec954ffef0ee34c</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>zip|1122889986000|1789616|0|0|0|zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019245</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|1.0.1|NA</val>
+</field>
+</doc>
+<doc id='31'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>e4336eeae47ef9762ef441ffc54a630ce7df1887</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>zip|1122889986000|1298621|0|0|0|zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019247</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|1.0-rc1|NA</val>
+</field>
+</doc>
+<doc id='32'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>cc8b11982b0dd105f2fbaa4983e620e7c0b89d44</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>zip|1122889989000|1608031|0|0|0|zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019249</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|1.0|NA</val>
+</field>
+</doc>
+<doc id='33'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>956a5c2df8e69d7157ac992a642672731b40f962</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>zip|1122889985000|1243425|0|0|0|zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019251</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|0.6-rc1|NA</val>
+</field>
+</doc>
+<doc id='34'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>d19389dda29d59e55d6a7ea5903a8e1e4b789e8c</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>zip|1122889986000|1264238|0|0|0|zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019253</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|0.6|NA</val>
+</field>
+</doc>
+<doc id='35'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>fc41cf7e548ff733431c3716633a87456c37965e</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684156000|79234|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019256</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|0.5|NA</val>
+</field>
+</doc>
+<doc id='36'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>c5982b268fe8ec284bd13fe723bad7c64571b789</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889992000|66937|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019283</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|0.4|NA</val>
+</field>
+</doc>
+<doc id='37'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>61845a3a0861e1331a8a80ae89b36f583ea13943</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684156000|58462|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019312</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|0.3|NA</val>
+</field>
+</doc>
+<doc id='38'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>59740df7a36ec9e75e48927673fd25d006b7a3e7</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>zip|1122889985000|778762|0|0|0|zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019341</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|0.2|NA</val>
+</field>
+</doc>
+<doc id='39'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>947402cfc8c6f1b528f03c2696939f5e76e3ec85</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>zip|1122889985000|62884|2|2|0|zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019342</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|0.2|src|zip</val>
+</field>
+</doc>
+<doc id='40'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>aa5edf398f7c9451782d3f1aac68f11b91aa8469</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>tar.gz|1122889985000|23943|2|2|0|tar.gz</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019343</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|0.2|src|tar.gz</val>
+</field>
+</doc>
+<doc id='41'>
+<field name='i' flags='------S--------------'>
+<val>distribution-zip|1162775420000|62884|2|2|0|distribution-zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019344</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|0.2|src|distribution-zip</val>
+</field>
+</doc>
+<doc id='42'>
+<field name='i' flags='------S--------------'>
+<val>distribution-tgz|1162775420000|23943|2|2|0|distribution-tgz</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019345</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|0.2|src|distribution-tgz</val>
+</field>
+</doc>
+<doc id='43'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>3722d18f6d2af282ef1236d174876328d5d1c865</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>zip|1122889985000|726238|0|0|0|zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019347</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|0.1|NA</val>
+</field>
+</doc>
+<doc id='44'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>5769da52e0353e54f32189770a1c2c8d11c11aab</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>zip|1122889984000|57548|2|2|0|zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019348</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|0.1|src|zip</val>
+</field>
+</doc>
+<doc id='45'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>e9f28a28d1d056ece39fad944e786c90f6da5d13</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>tar.gz|1122889984000|22525|2|2|0|tar.gz</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019349</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|0.1|src|tar.gz</val>
+</field>
+</doc>
+<doc id='46'>
+<field name='i' flags='------S--------------'>
+<val>distribution-zip|1162775419000|57548|2|2|0|distribution-zip</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019350</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|0.1|src|distribution-zip</val>
+</field>
+</doc>
+<doc id='47'>
+<field name='i' flags='------S--------------'>
+<val>distribution-tgz|1162775419000|22525|2|2|0|distribution-tgz</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019351</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xstream|xstream|0.1|src|distribution-tgz</val>
+</field>
+</doc>
+<doc id='48'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>9dda2227b546195d22e2e9ca0fb6cc92beec1df7</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889982000|500443|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019353</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xsdlib|xsdlib|20030225|NA</val>
+</field>
+</doc>
+<doc id='49'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>d0f59e38bba9dfbe9c5cb2217d3e0c041244081c</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>The xsddoc subproject is a XML Schema documentation generator
+    for W3C XML Schemas.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1130198455000|95058|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019426</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xsddoc</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xsddoc|xsddoc|1.0|NA</val>
+</field>
+</doc>
+<doc id='50'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>18cec0d517a61b1d01024df0a224a9527e5acb33</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>The xsddoc subproject is a XML Schema documentation generator
+    for W3C XML Schemas.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122898525000|131121|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019469</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xsddoc</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xsddoc|xsddoc|0.8|NA</val>
+</field>
+</doc>
+<doc id='51'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>3303442a3b831d19d10c5df09a9adb791de9f2c6</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>The xsddoc subproject is a XML Schema documentation generator
+    for W3C XML Schemas.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122898524000|114556|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019513</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xsddoc</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xsddoc|xsddoc|0.7|NA</val>
+</field>
+</doc>
+<doc id='52'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>243c7ed0c85cc6fb21d814954d169561fcf6f635</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>The xsddoc subproject is a XML Schema documentation generator
+    for W3C XML Schemas.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122898524000|105430|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019540</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xsddoc</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xsddoc|xsddoc|0.6|NA</val>
+</field>
+</doc>
+<doc id='53'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>102db209403db52fa36a6a9139f56e8b13fba709</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>The xsddoc subproject is a XML Schema documentation generator
+    for W3C XML Schemas.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122898524000|56967|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019579</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xsddoc</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xsddoc|xsddoc|0.5|NA</val>
+</field>
+</doc>
+<doc id='54'>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>xsddoc plugin for Maven.
+    It generates XML Schema documentation for W3C XML Schemas.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>plugin|1162775419000|16605|0|0|0|plugin</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019609</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>Maven xsddoc Plug-in</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xsddoc|maven-xsddoc-plugin|1.0|NA</val>
+</field>
+</doc>
+<doc id='55'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>df0db6c5a18d7a74cb07ea52c2d6b054f7449a68</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>xsddoc plugin for Maven.
+    It generates XML Schema documentation for W3C XML Schemas.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1112585266000|16291|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019615</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>Maven xsddoc Plug-in</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xsddoc|maven-xsddoc-plugin|0.7|NA</val>
+</field>
+</doc>
+<doc id='56'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>2dd7e2abe581a62a03e96e7fc9a0be4d3a3eb0cf</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>XML schema documentation generator</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1112585266000|14895|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019655</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>Maven xsddoc Plug-in</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xsddoc|maven-xsddoc-plugin|0.6|NA</val>
+</field>
+</doc>
+<doc id='57'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>4bab6f514c14e6da0f69331d22336beca67a1fa0</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>XML schema documentation generator</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1112585266000|14871|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019667</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>Maven xsddoc Plug-in</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xsddoc|maven-xsddoc-plugin|0.5|NA</val>
+</field>
+</doc>
+<doc id='58'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>e203cc104f0bd203bebc823e577d7b922c074add</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>MXP1 is a stable XmlPull parsing engine that is based on ideas from XPP and in particular XPP2 but completely revised and rewritten to take the best advantage of latest JIT JVMs such as Hotspot in JDK 1.4+.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1196230708000|198786|1|1|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019686</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>MXP1: Xml Pull Parser 3rd Edition (XPP3)</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xpp3|xpp3_xpath|1.1.4c|NA</val>
+</field>
+</doc>
+<doc id='59'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>58b976b3ce648fe305e8c76243ab46d49ffb3259</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>MXP1 is a stable XmlPull parsing engine that is based on ideas from XPP and in particular XPP2 but completely revised and rewritten to take the best advantage of latest JIT JVMs such as Hotspot in JDK 1.4+.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1196230708000|377347|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019748</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>MXP1: Xml Pull Parser 3rd Edition (XPP3)</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xpp3|xpp3_xpath|1.1.4c|sources|jar</val>
+</field>
+</doc>
+<doc id='60'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>9da288bf27087d79d71ca1af77083aba1d47cec7</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>MXP1 is a stable XmlPull parsing engine that is based on ideas from XPP and in particular XPP2 but completely revised and rewritten to take the best advantage of latest JIT JVMs such as Hotspot in JDK 1.4+.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1196230708000|498726|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019797</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>MXP1: Xml Pull Parser 3rd Edition (XPP3)</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xpp3|xpp3_xpath|1.1.4c|javadoc|jar</val>
+</field>
+</doc>
+<doc id='61'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>a3dd35a97a9d69afa8966d2f7a45bf317451fb4b</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>MXP1 is a stable XmlPull parsing engine that is based on ideas from XPP and in particular XPP2 but completely revised and rewritten to take the best advantage of latest JIT JVMs such as Hotspot in JDK 1.4+.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1140298336000|197410|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019837</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xpp3|xpp3_xpath|1.1.3.4.O|NA</val>
+</field>
+</doc>
+<doc id='62'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>19d4e90b43059058f6e056f794f0ea4030d60b86</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>MXP1 is a stable XmlPull parsing engine that is based on ideas from XPP and in particular XPP2 but completely revised and rewritten to take the best advantage of latest JIT JVMs such as Hotspot in JDK 1.4+.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1196230685000|24956|1|1|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019897</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>MXP1: Xml Pull Parser 3rd Edition (XPP3)</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xpp3|xpp3_min|1.1.4c|NA</val>
+</field>
+</doc>
+<doc id='63'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>fffe25ec1f20ec1cfdc0edd41c6e0d55bc0dbaf5</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>MXP1 is a stable XmlPull parsing engine that is based on ideas from XPP and in particular XPP2 but completely revised and rewritten to take the best advantage of latest JIT JVMs such as Hotspot in JDK 1.4+.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1196230685000|37855|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019946</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>MXP1: Xml Pull Parser 3rd Edition (XPP3)</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xpp3|xpp3_min|1.1.4c|sources|jar</val>
+</field>
+</doc>
+<doc id='64'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>0aa7f7f5da2c34374c2880ce04bd8fe32a24fc87</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>MXP1 is a stable XmlPull parsing engine that is based on ideas from XPP and in particular XPP2 but completely revised and rewritten to take the best advantage of latest JIT JVMs such as Hotspot in JDK 1.4+.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1196230685000|66756|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019963</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>MXP1: Xml Pull Parser 3rd Edition (XPP3)</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xpp3|xpp3_min|1.1.4c|javadoc|jar</val>
+</field>
+</doc>
+<doc id='65'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>cbb9d21eed484a16e0c0bd712830a80c75970753</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>MXP1 is a stable XmlPull parsing engine that is based on ideas from XPP and in particular XPP2 but completely revised and rewritten to take the best advantage of latest JIT JVMs such as Hotspot in JDK 1.4+.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1140298336000|24677|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434019980</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xpp3|xpp3_min|1.1.3.4.O|NA</val>
+</field>
+</doc>
+<doc id='66'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>8bc257ded76eb670c392338f1f0c34f013cb668c</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>MXP1 is a stable XmlPull parsing engine that is based on ideas from XPP and in particular XPP2 but completely revised and rewritten to take the best advantage of latest JIT JVMs such as Hotspot in JDK 1.4+.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1152458053000|24306|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434020016</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xpp3|xpp3_min|1.1.3.4-RC8|NA</val>
+</field>
+</doc>
+<doc id='67'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>9b988ea84b9e4e9f1874e390ce099b8ac12cfff5</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>MXP1 is a stable XmlPull parsing engine that is based on ideas from XPP and in particular XPP2 but completely revised and rewritten to take the best advantage of latest JIT JVMs such as Hotspot in JDK 1.4+.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1196233152000|120069|1|1|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434020036</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>MXP1: Xml Pull Parser 3rd Edition (XPP3)</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xpp3|xpp3|1.1.4c|NA</val>
+</field>
+</doc>
+<doc id='68'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>08dd0ddee19fe6ed0182b18e0e621d1c8b4d8d56</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>MXP1 is a stable XmlPull parsing engine that is based on ideas from XPP and in particular XPP2 but completely revised and rewritten to take the best advantage of latest JIT JVMs such as Hotspot in JDK 1.4+.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1196233152000|128334|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434020137</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>MXP1: Xml Pull Parser 3rd Edition (XPP3)</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xpp3|xpp3|1.1.4c|sources|jar</val>
+</field>
+</doc>
+<doc id='69'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>106ec701aea9934d58071ce7701a6b8cdd88e702</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>MXP1 is a stable XmlPull parsing engine that is based on ideas from XPP and in particular XPP2 but completely revised and rewritten to take the best advantage of latest JIT JVMs such as Hotspot in JDK 1.4+.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1196233152000|321084|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434020221</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>MXP1: Xml Pull Parser 3rd Edition (XPP3)</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xpp3|xpp3|1.1.4c|javadoc|jar</val>
+</field>
+</doc>
+<doc id='70'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>1c165262edac1c1e4f0a67c1643c4b7476187034</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>MXP1 is a stable XmlPull parsing engine that is based on ideas from XPP and in particular XPP2 but completely revised and rewritten to take the best advantage of latest JIT JVMs such as Hotspot in JDK 1.4+.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1140298336000|119888|1|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434020329</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xpp3|xpp3|1.1.3.4.O|NA</val>
+</field>
+</doc>
+<doc id='71'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>ccbef9c0ff4b76082ae0ad413e342e84dd276bd2</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>MXP1 is a stable XmlPull parsing engine that is based on ideas from XPP and in particular XPP2 but completely revised and rewritten to take the best advantage of latest JIT JVMs such as Hotspot in JDK 1.4+.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1151503212000|119580|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434020391</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xpp3|xpp3|1.1.3.4.O|sources|jar</val>
+</field>
+</doc>
+<doc id='72'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>462e295d613b6970f2b6ae224d17ffd2a8c6fbcd</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889982000|103144|1|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434020416</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xpp3|xpp3|1.1.3.4-RC8|NA</val>
+</field>
+</doc>
+<doc id='73'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>40565f83759aec300df1f995723c79ed337f7231</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1151503212000|449643|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434020475</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xpp3|xpp3|1.1.3.4-RC8|sources|jar</val>
+</field>
+</doc>
+<doc id='74'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>f63aa962f306d04f9c9683b72bee53a9362954f8</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889981000|99867|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434020505</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xpp3|xpp3|1.1.3.4-RC3|NA</val>
+</field>
+</doc>
+<doc id='75'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>8bc257ded76eb670c392338f1f0c34f013cb668c</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1172111348000|24306|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434020531</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xpp3|xpp3|1.1.3.4|RC8_min|jar</val>
+</field>
+</doc>
+<doc id='76'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>b0c16596651d8abf88c19f08bb8962d59e9d0387</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1172111348000|24297|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434020543</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xpp3|xpp3|1.1.3.4|RC3_min|jar</val>
+</field>
+</doc>
+<doc id='77'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>d60a45f81f13a82aa0afbcaf7a622d488685c9d9</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889981000|24405|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434020546</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xpp3|xpp3|1.1.3.3_min|NA</val>
+</field>
+</doc>
+<doc id='78'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>064f9d2bb88f58ad2a15a4301487d977ee9b4294</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889981000|93395|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434020558</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xpp3|xpp3|1.1.3.3|NA</val>
+</field>
+</doc>
+<doc id='79'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>d230a4ac2904f8b202db28b70c57a86e19a5e367</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889981000|23591|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434020614</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xpp3|xpp3|1.1.2a_min|NA</val>
+</field>
+</doc>
+<doc id='80'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>d666a1e6751032ad118cbfaccb19316a9d334267</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889981000|46757|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434020634</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xpp3|xpp3|1.1.2a|NA</val>
+</field>
+</doc>
+<doc id='81'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>4166493b9f04e91b858ba4150b28b4d197f8f8ea</val>
+</field>
+<field name='Bundle-Name' flags='Idfp--S--Nnum--------'>
+<val>XOM</val>
+</field>
+<field name='Bundle-SymbolicName' flags='Idfp--S--Nnum--------'>
+<val>nu.xom</val>
+</field>
+<field name='Bundle-Version' flags='Idfp--S--Nnum--------'>
+<val>1.2.5.osgi</val>
+</field>
+<field name='Export-Package' flags='Idfp--S--Nnum--------'>
+<val>nu.xom, nu.xom.canonical, nu.xom.converters, nu.xom.xinclude, nu.xom.xslt</val>
+</field>
+<field name='Import-Package' flags='Idfp--S--Nnum--------'>
+<val>javax.xml.transform.sax, javax.xml.transform, org.w3c.dom, org.xml.sax, org.xml.sax.helpers, org.xml.sax.ext,           org.apache.xerces.parsers;resolution:=optional;version=&quot;2.8.0&quot;, org.apache.xerces.impl;resolution:=optional;version=&quot;2.8.0&quot;,            org.apache.xerces.jaxp;resolution:=optional;version=&quot;2.9.0&quot;, junit.framework;resolution:=optional;version=&quot;3.8.1&quot;,           com.sun.org.apache.xerces.internal.jaxp;resolution:=optional, com.sun.org.apache.xerces.internal.parsers;resolution:=optional</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>The XOM Dual Streaming/Tree API for Processing XML</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1273645330000|308863|1|1|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434020653</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>XOM</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xom|xom|1.2.5|NA</val>
+</field>
+</doc>
+<doc id='82'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>89b7d070b6725921605a900b070bd9034ede720d</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>The XOM Dual Streaming/Tree API for Processing XML</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1273645330000|301937|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434020722</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>XOM</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xom|xom|1.2.5|sources|jar</val>
+</field>
+</doc>
+<doc id='83'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>2690755d22cd198d03eaf0cac8506bbbbe9741db</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>The XOM Dual Streaming/Tree API for Processing XML</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1273645330000|459872|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434020801</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>XOM</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xom|xom|1.2.5|javadoc|jar</val>
+</field>
+</doc>
+<doc id='84'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>de354cf4dfb2cc963c71fb525bde03e10d77dbaa</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122898524000|120639|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434020851</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xom</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xom|xom|1.1d2|NA</val>
+</field>
+</doc>
+<doc id='85'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>0ad18084d2508c1b7b0b5ce77c94e0f1d5bd679f</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1129924943000|431431|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434020938</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xom|xom|1.1b5|NA</val>
+</field>
+</doc>
+<doc id='86'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>4be97053e8e6e761e7fe36d2118302e6178f4c7f</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1126713719000|431706|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434020946</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xom|xom|1.1b3|NA</val>
+</field>
+</doc>
+<doc id='87'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>df815dbd3db2ea191ff0c09917f069d9aefb95f1</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122898524000|425028|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434020999</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xom</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xom|xom|1.1b2|NA</val>
+</field>
+</doc>
+<doc id='88'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>6705564269d976dbc0d869b58aca25290c0eb4cb</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1135095641000|431568|1|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021059</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xom</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xom|xom|1.1|NA</val>
+</field>
+</doc>
+<doc id='89'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>1335bd2e45c7771369828e2a83a2bd069e30fccd</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1161285791000|636499|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021150</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xom</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xom|xom|1.1|sources|jar</val>
+</field>
+</doc>
+<doc id='90'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>4a5d38d991b5de5b9dab7e3a9429b56c68db45c4</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889981000|224447|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021183</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xom|xom|1.0d21|NA</val>
+</field>
+</doc>
+<doc id='91'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>2cf6ed5927c16bf4952f6218b3e8bf9440697088</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889981000|104102|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021245</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xom</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xom|xom|1.0b3|NA</val>
+</field>
+</doc>
+<doc id='92'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>ea0a26cf7925d47012a08f43a0b485ac23a81629</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1163667341000|108874|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021324</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xom</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xom|xom|1.0|NA</val>
+</field>
+</doc>
+<doc id='93'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>9f266e81f488a0bc1d11af102707b103d4d31984</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>A great way to output Xml. Far easier to code with than painful DOM or 
+    SAX like solutions and much nicer in terms of speed and memory usage. 
+    &lt;br/&gt;
+    &lt;br/&gt;
+   While XmlWriter contains its own xml outputter, it has the ability to sit on top of other core Xml writing products, such as &lt;a href=&quot;http://xmlenc.sf.net/&quot;&gt;XmlEnc&lt;/a&gt;. In addition, the user may layer &lt;a href=&quot;Optional.html&quot;&gt;other functionalities&lt;/a&gt; on top of the core writing, such as on the fly schema checking, date/number formatting, specific empty-element handling and pretty-printing.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1199306490000|16841|1|1|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021362</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter|xmlwriter|2.2.2|NA</val>
+</field>
+</doc>
+<doc id='94'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>e141d81e6ee98a03029e2e44169f2d1e76d7f18b</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>A great way to output Xml. Far easier to code with than painful DOM or 
+    SAX like solutions and much nicer in terms of speed and memory usage. 
+    &lt;br/&gt;
+    &lt;br/&gt;
+   While XmlWriter contains its own xml outputter, it has the ability to sit on top of other core Xml writing products, such as &lt;a href=&quot;http://xmlenc.sf.net/&quot;&gt;XmlEnc&lt;/a&gt;. In addition, the user may layer &lt;a href=&quot;Optional.html&quot;&gt;other functionalities&lt;/a&gt; on top of the core writing, such as on the fly schema checking, date/number formatting, specific empty-element handling and pretty-printing.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1199306490000|21912|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021391</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter|xmlwriter|2.2.2|sources|jar</val>
+</field>
+</doc>
+<doc id='95'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>34d61c79b61da3e06e61161a784265d503b017d1</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>A great way to output Xml. Far easier to code with than painful DOM or 
+    SAX like solutions and much nicer in terms of speed and memory usage. 
+    &lt;br/&gt;
+    &lt;br/&gt;
+   While XmlWriter contains its own xml outputter, it has the ability to sit on top of other core Xml writing products, such as &lt;a href=&quot;http://xmlenc.sf.net/&quot;&gt;XmlEnc&lt;/a&gt;. In addition, the user may layer &lt;a href=&quot;Optional.html&quot;&gt;other functionalities&lt;/a&gt; on top of the core writing, such as on the fly schema checking, date/number formatting, specific empty-element handling and pretty-printing.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1199306490000|74045|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021427</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter|xmlwriter|2.2.2|javadoc|jar</val>
+</field>
+</doc>
+<doc id='96'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>c4cf8979bb5fa275307d49e91e39209d5c658256</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>A great way to output Xml. Far easier to code with than painful DOM or 
+    SAX like solutions and much nicer in terms of speed and memory usage. 
+    &lt;br/&gt;
+    &lt;br/&gt;
+   While XmlWriter contains its own xml outputter, it has the ability to sit on top of other core Xml writing products, such as &lt;a href=&quot;http://xmlenc.sf.net/&quot;&gt;XmlEnc&lt;/a&gt;. In addition, the user may layer &lt;a href=&quot;Optional.html&quot;&gt;other functionalities&lt;/a&gt; on top of the core writing, such as on the fly schema checking, date/number formatting, specific empty-element handling and pretty-printing.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1180736798000|16728|1|1|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021455</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter|xmlwriter|2.2.1|NA</val>
+</field>
+</doc>
+<doc id='97'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>781fb359ddf892a91910228355800a43cee7bfce</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>A great way to output Xml. Far easier to code with than painful DOM or 
+    SAX like solutions and much nicer in terms of speed and memory usage. 
+    &lt;br/&gt;
+    &lt;br/&gt;
+   While XmlWriter contains its own xml outputter, it has the ability to sit on top of other core Xml writing products, such as &lt;a href=&quot;http://xmlenc.sf.net/&quot;&gt;XmlEnc&lt;/a&gt;. In addition, the user may layer &lt;a href=&quot;Optional.html&quot;&gt;other functionalities&lt;/a&gt; on top of the core writing, such as on the fly schema checking, date/number formatting, specific empty-element handling and pretty-printing.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1180736798000|21801|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021504</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter|xmlwriter|2.2.1|sources|jar</val>
+</field>
+</doc>
+<doc id='98'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>599785e2e8b73f569f61c0e0b359f28a3b6b17f7</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>A great way to output Xml. Far easier to code with than painful DOM or 
+    SAX like solutions and much nicer in terms of speed and memory usage. 
+    &lt;br/&gt;
+    &lt;br/&gt;
+   While XmlWriter contains its own xml outputter, it has the ability to sit on top of other core Xml writing products, such as &lt;a href=&quot;http://xmlenc.sf.net/&quot;&gt;XmlEnc&lt;/a&gt;. In addition, the user may layer &lt;a href=&quot;Optional.html&quot;&gt;other functionalities&lt;/a&gt; on top of the core writing, such as on the fly schema checking, date/number formatting, specific empty-element handling and pretty-printing.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1180737098000|73915|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021516</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter|xmlwriter|2.2.1|javadoc|jar</val>
+</field>
+</doc>
+<doc id='99'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>dc4d17ad48b2839294e03241ba8bfdfc769c689e</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>A great way to output Xml. Far easier to code with than painful DOM or 
+    SAX like solutions and much nicer in terms of speed and memory usage. 
+    &lt;br/&gt;
+    &lt;br/&gt;
+   While XmlWriter contains its own xml outputter, it has the ability to sit on top of other core Xml writing products, such as &lt;a href=&quot;http://xmlenc.sf.net/&quot;&gt;XmlEnc&lt;/a&gt;. In addition, the user may layer other functionalities on top of the core writing, such as on the fly schema checking, date/number formatting, specific empty-element handling and pretty-printing.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684156000|15890|1|1|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021534</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter|xmlwriter|2.2|NA</val>
+</field>
+</doc>
+<doc id='100'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>aea1787f394c5b94a3f893a2e57bdf75b8fb3e71</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>A great way to output Xml. Far easier to code with than painful DOM or 
+    SAX like solutions and much nicer in terms of speed and memory usage. 
+    &lt;br/&gt;
+    &lt;br/&gt;
+   While XmlWriter contains its own xml outputter, it has the ability to sit on top of other core Xml writing products, such as &lt;a href=&quot;http://xmlenc.sf.net/&quot;&gt;XmlEnc&lt;/a&gt;. In addition, the user may layer other functionalities on top of the core writing, such as on the fly schema checking, date/number formatting, specific empty-element handling and pretty-printing.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1146688334000|24688|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021585</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter|xmlwriter|2.2|sources|jar</val>
+</field>
+</doc>
+<doc id='101'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>2367b92fabdd5f2a2a43ac0670efae75e8f23b21</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>A great way to output Xml. Far easier to code with than painful DOM or 
+    SAX like solutions and much nicer in terms of speed and memory usage. 
+    &lt;br/&gt;
+    &lt;br/&gt;
+   While XmlWriter contains its own xml outputter, it has the ability to sit on top of other core Xml writing products, such as &lt;a href=&quot;http://xmlenc.sf.net/&quot;&gt;XmlEnc&lt;/a&gt;. In addition, the user may layer other functionalities on top of the core writing, such as on the fly schema checking, date/number formatting, specific empty-element handling and pretty-printing.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>javadoc.jar|1162775419000|71431|2|2|0|javadoc.jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021595</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter|xmlwriter|2.2|javadoc|javadoc.jar</val>
+</field>
+</doc>
+<doc id='102'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>2367b92fabdd5f2a2a43ac0670efae75e8f23b21</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>A great way to output Xml. Far easier to code with than painful DOM or 
+    SAX like solutions and much nicer in terms of speed and memory usage. 
+    &lt;br/&gt;
+    &lt;br/&gt;
+   While XmlWriter contains its own xml outputter, it has the ability to sit on top of other core Xml writing products, such as &lt;a href=&quot;http://xmlenc.sf.net/&quot;&gt;XmlEnc&lt;/a&gt;. In addition, the user may layer other functionalities on top of the core writing, such as on the fly schema checking, date/number formatting, specific empty-element handling and pretty-printing.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1144182719000|71431|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021613</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter|xmlwriter|2.2|javadoc|jar</val>
+</field>
+</doc>
+<doc id='103'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>df70d1dbc5aa445c533d1c9d8487dbd4152157fd</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>A great way to output Xml. Far easier to code with than painful DOM or 
+    SAX like solutions and much nicer in terms of speed and memory usage. 
+    Note, xmlwriter is dependent on the Jakarta Commons Lang project found at &lt;a href=&quot;http://jakarta.apache.org/commons/lang.html&quot;&gt;http://jakarta.apache.org/commons/lang.html&lt;/a&gt;.
+    &lt;br/&gt;
+    &lt;br/&gt;
+   While XmlWriter contains its own xml outputter, it has the ability to sit on top of other core Xml writing products, such as XmlEnc. In addition, the user may layer other functionalities on top of the core writing, such as on the fly schema checking, date/number formatting, specific empty-element handling and pretty-printing.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684156000|15964|1|1|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021638</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter|xmlwriter|2.1|NA</val>
+</field>
+</doc>
+<doc id='104'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>bc441c52ca667ef5f5bec1336c20aec62e8d2a83</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>A great way to output Xml. Far easier to code with than painful DOM or 
+    SAX like solutions and much nicer in terms of speed and memory usage. 
+    Note, xmlwriter is dependent on the Jakarta Commons Lang project found at &lt;a href=&quot;http://jakarta.apache.org/commons/lang.html&quot;&gt;http://jakarta.apache.org/commons/lang.html&lt;/a&gt;.
+    &lt;br/&gt;
+    &lt;br/&gt;
+   While XmlWriter contains its own xml outputter, it has the ability to sit on top of other core Xml writing products, such as XmlEnc. In addition, the user may layer other functionalities on top of the core writing, such as on the fly schema checking, date/number formatting, specific empty-element handling and pretty-printing.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1146688334000|25191|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021662</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter|xmlwriter|2.1|sources|jar</val>
+</field>
+</doc>
+<doc id='105'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>d20c81e616752d8bf2dc24a7ea08eccdd0611089</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>A great way to output Xml. Far easier to code with than painful DOM or 
+    SAX like solutions and much nicer in terms of speed and memory usage. 
+    Note, xmlwriter is dependent on the Jakarta Commons Lang project found at &lt;a href=&quot;http://jakarta.apache.org/commons/lang.html&quot;&gt;http://jakarta.apache.org/commons/lang.html&lt;/a&gt;.
+    &lt;br/&gt;
+    &lt;br/&gt;
+   While XmlWriter contains its own xml outputter, it has the ability to sit on top of other core Xml writing products, such as XmlEnc. In addition, the user may layer other functionalities on top of the core writing, such as on the fly schema checking, date/number formatting, specific empty-element handling and pretty-printing.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>javadoc.jar|1162775419000|66964|2|2|0|javadoc.jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021666</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter|xmlwriter|2.1|javadoc|javadoc.jar</val>
+</field>
+</doc>
+<doc id='106'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>d20c81e616752d8bf2dc24a7ea08eccdd0611089</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>A great way to output Xml. Far easier to code with than painful DOM or 
+    SAX like solutions and much nicer in terms of speed and memory usage. 
+    Note, xmlwriter is dependent on the Jakarta Commons Lang project found at &lt;a href=&quot;http://jakarta.apache.org/commons/lang.html&quot;&gt;http://jakarta.apache.org/commons/lang.html&lt;/a&gt;.
+    &lt;br/&gt;
+    &lt;br/&gt;
+   While XmlWriter contains its own xml outputter, it has the ability to sit on top of other core Xml writing products, such as XmlEnc. In addition, the user may layer other functionalities on top of the core writing, such as on the fly schema checking, date/number formatting, specific empty-element handling and pretty-printing.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1144182719000|66964|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021692</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter|xmlwriter|2.1|javadoc|jar</val>
+</field>
+</doc>
+<doc id='107'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>72e37a324b75ff9af11132911f555fc5d54e5510</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>A great way to output Xml. Far easier to code with than painful DOM or 
+    SAX like solutions and much nicer in terms of speed and memory usage. 
+    Note, xmlwriter is dependent on the Jakarta Commons Lang project found at http://jakarta.apache.org/commons/lang.html.
+    &lt;br&gt;
+   While XmlWriter contains its own xml outputter, it has the ability to sit on top of other core Xml writing products, such as XmlEnc. In addition, the user may layer other functionalities on top of the core writing, such as on the fly schema checking, date/number formatting, specific empty-element handling and pretty-printing.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684156000|15801|1|1|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021708</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter|xmlwriter|2.0|NA</val>
+</field>
+</doc>
+<doc id='108'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>75edb35ade407e8add2ea522daf39aae48e56b59</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>A great way to output Xml. Far easier to code with than painful DOM or 
+    SAX like solutions and much nicer in terms of speed and memory usage. 
+    Note, xmlwriter is dependent on the Jakarta Commons Lang project found at http://jakarta.apache.org/commons/lang.html.
+    &lt;br&gt;
+   While XmlWriter contains its own xml outputter, it has the ability to sit on top of other core Xml writing products, such as XmlEnc. In addition, the user may layer other functionalities on top of the core writing, such as on the fly schema checking, date/number formatting, specific empty-element handling and pretty-printing.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1146688334000|25131|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021718</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter|xmlwriter|2.0|sources|jar</val>
+</field>
+</doc>
+<doc id='109'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>569de0c03069ccd00321b8e359da863bfaf35df8</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>A great way to output Xml. Far easier to code with than painful DOM or 
+    SAX like solutions and much nicer in terms of speed and memory usage. 
+    Note, xmlwriter is dependent on the Jakarta Commons Lang project found at http://jakarta.apache.org/commons/lang.html.
+    &lt;br&gt;
+   While XmlWriter contains its own xml outputter, it has the ability to sit on top of other core Xml writing products, such as XmlEnc. In addition, the user may layer other functionalities on top of the core writing, such as on the fly schema checking, date/number formatting, specific empty-element handling and pretty-printing.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>javadoc.jar|1162775419000|66971|2|2|0|javadoc.jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021743</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter|xmlwriter|2.0|javadoc|javadoc.jar</val>
+</field>
+</doc>
+<doc id='110'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>569de0c03069ccd00321b8e359da863bfaf35df8</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>A great way to output Xml. Far easier to code with than painful DOM or 
+    SAX like solutions and much nicer in terms of speed and memory usage. 
+    Note, xmlwriter is dependent on the Jakarta Commons Lang project found at http://jakarta.apache.org/commons/lang.html.
+    &lt;br&gt;
+   While XmlWriter contains its own xml outputter, it has the ability to sit on top of other core Xml writing products, such as XmlEnc. In addition, the user may layer other functionalities on top of the core writing, such as on the fly schema checking, date/number formatting, specific empty-element handling and pretty-printing.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1144182719000|66971|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021782</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlwriter|xmlwriter|2.0|javadoc|jar</val>
+</field>
+</doc>
+<doc id='111'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>4ecf4c68036ae37d889cc1744208abbc42704fb2</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>XMLUnit compares a control XML document to a test document or the result of a transformation, validates documents, and compares the results of XPath expressions.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1253561096000|96751|0|0|1|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021817</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>XMLUnit for Java</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlunit|xmlunit|1.3|NA</val>
+</field>
+</doc>
+<doc id='112'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>81335c8b0a1657270cbf7b86828838533243c8df</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>XMLUnit compares a control XML document to a test document or the result of a transformation, validates documents, and compares the results of XPath expressions.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>xml|1253561088000|2186|2|2|1|xml</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021859</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>XMLUnit for Java</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlunit|xmlunit|1.3|ivy|xml</val>
+</field>
+</doc>
+<doc id='113'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>9a8543988f6a1a1e584ae7bef34fd88825c54e1e</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>XMLUnit compares a control XML document to a test document or the result of a transformation, validates documents, and compares the results of XPath expressions.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1213093018000|96507|0|0|1|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021861</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>XMLUnit for Java</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlunit|xmlunit|1.2|NA</val>
+</field>
+</doc>
+<doc id='114'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>827c4944be4a151c6da26650ee15987db3eaf296</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>XMLUnit compares a control XML document to a test document or the result of a transformation, validates documents, and compares the results of XPath expressions.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>xml|1213105856000|2186|2|2|1|xml</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021885</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>XMLUnit for Java</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlunit|xmlunit|1.2|ivy|xml</val>
+</field>
+</doc>
+<doc id='115'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>81aef0317b1e938b81ff11402037f3b33204aa16</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>XMLUnit compares a control XML document to a test document or the result of a transformation, validates documents, and compares the results of XPath expressions.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1187531688000|86249|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021888</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>XMLUnit for Java</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlunit|xmlunit|1.1|NA</val>
+</field>
+</doc>
+<doc id='116'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>7ea9acadc8855ad7f60cb1611e3c9f55ae3f54cc</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889980000|63798|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021913</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlunit|xmlunit|1.0|NA</val>
+</field>
+</doc>
+<doc id='117'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>70f829b92f0189328dcc2f3c432ab3f566d44cb0</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889980000|41082|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021935</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlunit|xmlunit|0.8|NA</val>
+</field>
+</doc>
+<doc id='118'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>480869e5cdcfa33956ec7348b6e8e0840c01d3f2</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889980000|54398|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021953</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc-helma|xmlrpc-helma|1.0|NA</val>
+</field>
+</doc>
+<doc id='119'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>bfc41683aca75d0dba9a8442989eeacbc7d55974</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1151203277000|68425|1|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021978</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>Apache XML-RPC Server Library</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc-server|3.0b1|NA</val>
+</field>
+</doc>
+<doc id='120'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>1afa09521adfb4508ed1dec1dfb8761171f6205a</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1162775419000|52180|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434021995</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>Apache XML-RPC Server Library</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc-server|3.0b1|sources|jar</val>
+</field>
+</doc>
+<doc id='121'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>d6917bf718583002cbe44e773ee21e2df08adc71</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1157037222000|69186|1|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022005</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>Apache XML-RPC Server Library</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc-server|3.0|NA</val>
+</field>
+</doc>
+<doc id='122'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>0388d6019da34b5ba3f481102b44ae01efe8a16c</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1162775419000|53306|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022027</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>Apache XML-RPC Server Library</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc-server|3.0|sources|jar</val>
+</field>
+</doc>
+<doc id='123'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>7d05aa29d2188004f5fbe1a813b1bbeebe48d6a8</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684155000|54338|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022038</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc-helma|1.0|NA</val>
+</field>
+</doc>
+<doc id='124'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>3f3da60d8bfc3c0848320bacfa2db9553321de7e</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1151203277000|100407|1|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022099</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>Apache XML-RPC Common Library</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc-common|3.0b1|NA</val>
+</field>
+</doc>
+<doc id='125'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>f997dfd6979d4f0bcc234b42ad5fcb62f7baf16a</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1162775419000|91146|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022181</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>Apache XML-RPC Common Library</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc-common|3.0b1|sources|jar</val>
+</field>
+</doc>
+<doc id='126'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>8fa16ad28b5e79a7cd52b8b72985b0ae8ccd6adf</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1157037222000|98051|1|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022234</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>Apache XML-RPC Common Library</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc-common|3.0|NA</val>
+</field>
+</doc>
+<doc id='127'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>64d61e4b89498201a883e4c8e2dbea6b2b7fb49b</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1162775419000|91225|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022300</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>Apache XML-RPC Common Library</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc-common|3.0|sources|jar</val>
+</field>
+</doc>
+<doc id='128'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>806a81ed9c75c663cdafbf0eb596a6acd6a021e6</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1151203277000|43480|1|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022345</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>Apache XML-RPC Client Library</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc-client|3.0b1|NA</val>
+</field>
+</doc>
+<doc id='129'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>484952110846a7a59a3489e612a45935f069c72e</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1162775419000|34052|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022374</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>Apache XML-RPC Client Library</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc-client|3.0b1|sources|jar</val>
+</field>
+</doc>
+<doc id='130'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>64f5beeadd2a239c4bc354b8dfdb97cf7fdd9983</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1157037222000|43312|1|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022398</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>Apache XML-RPC Client Library</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc-client|3.0|NA</val>
+</field>
+</doc>
+<doc id='131'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>c8a4732e0729a960897f6cacc170fda2d7bd0dca</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1162775419000|35142|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022418</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>Apache XML-RPC Client Library</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc-client|3.0|sources|jar</val>
+</field>
+</doc>
+<doc id='132'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>fc784c074da18e28d923b206c5da9b7b129f1719</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>Apache XML-RPC is a Java implementation of XML-RPC, a popular protocol
+        that uses XML over HTTP to implement remote procedure calls.
+        Compared to SOAP, or JAX-RPC, it is stable, much simpler and easier to
+        handle. Version 3 of Apache XML-RPC introduces several
+        important vendor extensions over the original XML-RPC specification.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>pom|1162775419000|11476|0|0|0|pom</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022438</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>Apache XML-RPC</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc|3.0b1|NA</val>
+</field>
+</doc>
+<doc id='133'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>ded9f1a50614c3d10f62cfc9db61f45482b1471a</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1140226331000|177880|1|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022440</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc|3.0a1|NA</val>
+</field>
+</doc>
+<doc id='134'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>1dcde93844a699c91d9a9d6f4e72bbd420ab7f13</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1162775419000|142111|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022457</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc|3.0a1|sources|jar</val>
+</field>
+</doc>
+<doc id='135'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>23336c6c4500ec58f6a8136ba7a54c5f8b82f405</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>Apache XML-RPC is a Java implementation of XML-RPC, a popular protocol
+        that uses XML over HTTP to implement remote procedure calls.
+        Compared to SOAP, or JAX-RPC, it is stable, much simpler and easier to
+        handle. Version 3 of Apache XML-RPC introduces several
+        important vendor extensions over the original XML-RPC specification.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>pom|1162775419000|11346|0|0|0|pom</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022473</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>Apache XML-RPC</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc|3.0|NA</val>
+</field>
+</doc>
+<doc id='136'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>ab3c3503846a8f3e09b00c69d44026f224f08e3e</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1135778760000|116065|1|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022476</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc|2.0.1|NA</val>
+</field>
+</doc>
+<doc id='137'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>5eab7a2156d17367b1ee81f0243376152b74b07e</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1135778760000|122073|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022505</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc|2.0.1|sources|jar</val>
+</field>
+</doc>
+<doc id='138'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>8986ff840b97ec36c95f0e10a237cac21f8fa5b8</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684155000|96248|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022540</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc|2.0-beta|NA</val>
+</field>
+</doc>
+<doc id='139'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>cd4f2ad09ab32c0f93f8fd785386dca4d106edd4</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684155000|35889|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022565</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc|2.0-beta|applet|jar</val>
+</field>
+</doc>
+<doc id='140'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>fab134f088272875666c1a829413cb64401adb14</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684155000|97005|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022585</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc|2.0|NA</val>
+</field>
+</doc>
+<doc id='141'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>fd382bbcfbae8cafd8060d5e01294a485ba2d138</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684155000|35778|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022614</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc|2.0|applet|jar</val>
+</field>
+</doc>
+<doc id='142'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>2fe89fb9be4dedee2eee5dbc9f22604fe92af988</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684155000|108476|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022627</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc|1.2-b1|NA</val>
+</field>
+</doc>
+<doc id='143'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>1f1229b24934050ed6d25cefd9a249064ef75ec0</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684155000|62993|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022670</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc|1.2-a2|NA</val>
+</field>
+</doc>
+<doc id='144'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>f537099c046593b2a66604c38e51d1d60f20cfc5</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684154000|73997|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022716</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc|1.2-a1|NA</val>
+</field>
+</doc>
+<doc id='145'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>70a35d8cb5c1bc9f5cfd51d32a60c28528ec77fb</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684155000|64564|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022738</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc|1.2|NA</val>
+</field>
+</doc>
+<doc id='146'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>2fe89fb9be4dedee2eee5dbc9f22604fe92af988</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1114577636000|108476|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022759</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc|1.2|b1|jar</val>
+</field>
+</doc>
+<doc id='147'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>1f1229b24934050ed6d25cefd9a249064ef75ec0</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1114577635000|62993|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022775</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc|1.2|a2|jar</val>
+</field>
+</doc>
+<doc id='148'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>f537099c046593b2a66604c38e51d1d60f20cfc5</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1114577635000|73997|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022786</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc|1.2|a1|jar</val>
+</field>
+</doc>
+<doc id='149'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>1f109a633a0f964c540907ec299e423a9eb88e95</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684154000|53978|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022802</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlrpc|xmlrpc|1.1|NA</val>
+</field>
+</doc>
+<doc id='150'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>6dcdbef481ff8fbac336a47048048b2b31855015</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1288121151000|24544|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022828</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>XML Pull Parsing API</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlpull|xmlpull|1.1.3.4d_b4_min|NA</val>
+</field>
+</doc>
+<doc id='151'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>9de939345e15660dfe90bc9b26194925e28bd8d4</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889979000|7312|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022842</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>XML Pull Parsing API</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlpull|xmlpull|1.1.3.4a|NA</val>
+</field>
+</doc>
+<doc id='152'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1055808238000|7188|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022870</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>XML Pull Parsing API</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlpull|xmlpull|1.1.3.1|NA</val>
+</field>
+</doc>
+<doc id='153'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>10da33ecb4c8442cef15cf485f58ec1c8039b36c</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889979000|7090|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022888</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlpull|xmlpull|1.1.2.1|NA</val>
+</field>
+</doc>
+<doc id='154'>
+<field name='i' flags='------S--------------'>
+<val>null|1131489168000|-1|0|0|0|pom</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022895</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlmind|xfc|2.1|NA</val>
+</field>
+</doc>
+<doc id='155'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>ebdd3b1f71557b6a5ae6166fdfbe0ebbb4b385c8</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889979000|213730|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022896</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlmind|aptconvert|1.0|NA</val>
+</field>
+</doc>
+<doc id='156'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>d82554efbe65906d83b3d97bd7509289e9db561a</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>xmlenc Library</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1164335084000|15010|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022952</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>xmlenc Library</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlenc|xmlenc|0.52|NA</val>
+</field>
+</doc>
+<doc id='157'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>c133dc13905b8874888bdd8bf97dd78d8dc05c64</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889979000|13928|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022960</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlenc|xmlenc|0.33|NA</val>
+</field>
+</doc>
+<doc id='158'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>a067102cef93933972cc4df010f32b8d89146e0a</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889979000|8746|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434022987</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlenc|xmlenc|0.20|NA</val>
+</field>
+</doc>
+<doc id='159'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>9f51d964e87adb421d0e76827ade2b4b6a9998f4</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889979000|43235|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434023006</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmldb|xmldb-xupdate|20021220|NA</val>
+</field>
+</doc>
+<doc id='160'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>8d4810bdef614bc93ef9c4061f6721cb6241cfb5</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889979000|11375|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434023019</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmldb|xmldb-common|20021220|NA</val>
+</field>
+</doc>
+<doc id='161'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>ed635642cb779877cc8a248f06975c9f0e001d57</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889979000|29501|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434023031</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmldb|xmldb-api-sdk|20021118|NA</val>
+</field>
+</doc>
+<doc id='162'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>413e861230e53ae85c5f0a190c9f8f06cf73f7c8</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889979000|9248|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434023045</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmldb|xmldb-api|20021118|NA</val>
+</field>
+</doc>
+<doc id='163'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>e7ceabaac48772787474b7ad54af2131b509fd42</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1151468408000|429483|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434023110</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xmlpublic|2.2.0|NA</val>
+</field>
+</doc>
+<doc id='164'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>c03a5863b545b4bf29f1bd64f48e67b0c5e2c780</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1135095640000|428349|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434023120</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xmlpublic|2.1.0|NA</val>
+</field>
+</doc>
+<doc id='165'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>94668d2dda46e4f8649d2878b3337ca284925e3d</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684154000|399033|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434023161</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xmlpublic|2.0.0-beta1|NA</val>
+</field>
+</doc>
+<doc id='166'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>889cb547d46930b79f9e9fc483617742d17bfe74</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684154000|425062|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434023228</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xmlpublic|2.0.0|NA</val>
+</field>
+</doc>
+<doc id='167'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>d883d25625817044b764eb2ddf8155e06f628f40</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889976000|384554|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434023338</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xmlbeans-xmlpublic|2.0-dev-2|NA</val>
+</field>
+</doc>
+<doc id='168'>
+<field name='i' flags='------S--------------'>
+<val>null|1184344329000|-1|0|0|0|pom</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434023423</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xmlbeans|2.3.0|NA</val>
+</field>
+</doc>
+<doc id='169'>
+<field name='i' flags='------S--------------'>
+<val>null|1184344126000|-1|0|0|0|pom</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434023424</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xmlbeans|2.2.0|NA</val>
+</field>
+</doc>
+<doc id='170'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>8be8479b8deab483bab4d00899b25dfb2df12257</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1122889945000|2655439|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434023425</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xmlbeans|2.0-dev-2|NA</val>
+</field>
+</doc>
+<doc id='171'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>4d3d441fa4601e37861223a9181607d33c5ca177</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684152000|1903579|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434023572</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xmlbeans|1.0.3|NA</val>
+</field>
+</doc>
+<doc id='172'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>55370b21951d2106768e7d8eccb1292e617a4fa7</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684153000|3574990|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434023666</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xmlbeans|1.0|NA</val>
+</field>
+</doc>
+<doc id='173'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>e970bec0b03e68f9d034e24a4110c566d5811226</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1151468408000|5578|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434023774</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xbean_xpath|2.2.0|NA</val>
+</field>
+</doc>
+<doc id='174'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>8ed3d2c36760acb4339eb32bee7ce92413108b3d</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1135095640000|5174|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434023789</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xbean_xpath|2.1.0|NA</val>
+</field>
+</doc>
+<doc id='175'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>3af0b1c6289e64dfd13b92e4fbadd69bf7e26f94</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684152000|5072|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434023807</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xbean_xpath|2.0.0-beta1|NA</val>
+</field>
+</doc>
+<doc id='176'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>d48cdad2f7610f29a2b2e2ee64391b6a437c992a</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684152000|5182|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434023821</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xbean_xpath|2.0.0|NA</val>
+</field>
+</doc>
+<doc id='177'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>9b76f2b4ca57d2021b58ca1f2151ad09405e244f</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684152000|15420|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434023831</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xbean_xpath|1.0.4|NA</val>
+</field>
+</doc>
+<doc id='178'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>a0e30f91325f33bcba3f7736877b548b20a4abc0</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>3.jar|1132684152000|15566|2|2|0|3.jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434023852</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xbean_xpath|1.0.4|jdk1|3.jar</val>
+</field>
+</doc>
+<doc id='179'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>93c24e49a393d4659b29f7fcfde626c5f81565fd</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684152000|15704|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434023855</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xbean_xpath|1.0.3|NA</val>
+</field>
+</doc>
+<doc id='180'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>8ab0ff5ac470a0296baa17550180c475fd86065a</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>The main classes for XMLBeans</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1151468408000|2664574|0|1|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434023881</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>XMLBeans main classes</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xbean|2.2.0|NA</val>
+</field>
+</doc>
+<doc id='181'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>6d79c9fe266321a75a005ddfaa9723fd6ee3a384</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>The main classes for XMLBeans</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1176447328000|828679|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434023991</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>XMLBeans main classes</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xbean|2.2.0|javadoc|jar</val>
+</field>
+</doc>
+<doc id='182'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>fcdaf37119ec419dabf21286584dc2a42023057a</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1135095639000|2637587|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434024019</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xbean|2.1.0|NA</val>
+</field>
+</doc>
+<doc id='183'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>8528d5bc76a1fe1c0f8ac2f0a884ef38afb3defd</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684125000|2469198|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434024077</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xbean|2.0.0-beta1|NA</val>
+</field>
+</doc>
+<doc id='184'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>6c865dcbc924d1ba63e614c5d83d09eca5cd5df3</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>XMLBeans is a technology for accessing XML by binding it to Java types. XMLBeans provides several ways to get at the XML</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1152367623000|2526707|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434024152</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>XMLBeans 2.0.0 with patched POM from MEV-406</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xbean|2.0.0-1|NA</val>
+</field>
+</doc>
+<doc id='185'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>6c865dcbc924d1ba63e614c5d83d09eca5cd5df3</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684152000|2526707|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434024235</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xbean|2.0.0|NA</val>
+</field>
+</doc>
+<doc id='186'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>4028aff66b8b06e62c68bc2682b343ff3846ee67</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684124000|1871492|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434024284</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xbean|1.0.4|NA</val>
+</field>
+</doc>
+<doc id='187'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>ac98f5ca8a9fb70863c55213e56e8c6b4e841e71</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>3.jar|1132684123000|1950111|2|2|0|3.jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434024319</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xbean|1.0.4|jdk1|3.jar</val>
+</field>
+</doc>
+<doc id='188'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>4d3d441fa4601e37861223a9181607d33c5ca177</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684122000|1903579|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434024386</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xmlbeans|xbean|1.0.3|NA</val>
+</field>
+</doc>
+<doc id='189'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>59c4b71e0a5871f26db91eaab236e5b9bf41122e</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>The XML Security project is aimed at providing implementation of security standards for XML</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1146313918000|284773|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434024451</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>Apache XML Security</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xml-security|xmlsec|1.3.0|NA</val>
+</field>
+</doc>
+<doc id='190'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>39f2355440895826292ff7c2e6655fdff9eb2744</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684121000|292712|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434024500</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xml-security|xmlsec|1.2.1|NA</val>
+</field>
+</doc>
+<doc id='191'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>746161f212ef5362c3ccd8e2f2ae4f74ee205caf</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684121000|296087|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434024549</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xml-security|xmlsec|1.1.0|NA</val>
+</field>
+</doc>
+<doc id='192'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>e3a71afe8722d6df71ccbafd13eec95229608244</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684120000|363304|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434024607</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xml-security|xmlsec|1.0.5D2|NA</val>
+</field>
+</doc>
+<doc id='193'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>52833876a0f214485d7c9b6295c0d723ebd42ede</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684119000|354491|1|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434024665</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xml-security|xml-security|1.0.4|NA</val>
+</field>
+</doc>
+<doc id='194'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>9319264dea2d68574847c8265b5ced721ea9a850</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1161285791000|580624|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434024717</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xml-security|xml-security|1.0.4|sources|jar</val>
+</field>
+</doc>
+<doc id='195'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>d745687ae17671f6709c050e491b16530767d997</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684119000|78440|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434024935</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xml-apis|xmlParserAPIs|2.0.2|NA</val>
+</field>
+</doc>
+<doc id='196'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>22188a455ed13a0754aeaf09b6a16cd3857ba1aa</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684119000|131895|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434024965</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xml-apis|xmlParserAPIs|2.0.0|NA</val>
+</field>
+</doc>
+<doc id='197'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>41a8b86b358e87f3f13cf46069721719105aff66</val>
+</field>
+<field name='d' flags='Idfp--S--Nnum--------'>
+<val>xml-commons provides an Apache-hosted set of DOM, SAX, and 
+    JAXP interfaces for use in other xml-based projects. Our hope is that we 
+    can standardize on both a common version and packaging scheme for these 
+    critical XML standards interfaces to make the lives of both our developers 
+    and users easier. The External Components portion of xml-commons contains 
+    interfaces that are defined by external standards organizations. For DOM, 
+    that&#039;s the W3C; for SAX it&#039;s David Megginson and sax.sourceforge.net; for 
+    JAXP it&#039;s Sun.</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1166794672000|85686|0|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434025017</val>
+</field>
+<field name='n' flags='Idfp--S--Nnum--------'>
+<val>XML Commons External Components XML APIs Extensions</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xml-apis|xml-apis-ext|1.3.04|NA</val>
+</field>
+</doc>
+<doc id='198'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>3136ca936f64c9d68529f048c2618bd356bf85c9</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132684118000|109318|1|0|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434025077</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xml-apis|xml-apis|2.0.2|NA</val>
+</field>
+</doc>
+<doc id='199'>
+<field name='1' flags='Idfp--S--Nnum--------'>
+<val>281e2df846eaa47a60cd74e0513195b1d140bf1c</val>
+</field>
+<field name='i' flags='------S--------------'>
+<val>jar|1132183128000|286764|2|2|0|jar</val>
+</field>
+<field name='m' flags='------S--------------'>
+<val>1318434025110</val>
+</field>
+<field name='u' flags='Idfp--S--Nnum--------'>
+<val>xml-apis|xml-apis|2.0.2|sources|jar</val>
+</field>
+</doc>
+</index>

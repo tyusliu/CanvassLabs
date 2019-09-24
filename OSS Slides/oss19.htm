@@ -1,0 +1,198 @@
+<html>
+<head> 
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <title>OSS 2019</title></head>
+<body>
+
+<h1>OSS 2019</h1>
+
+<p>
+    <a href="index.htm">index</a>,
+    <a href="#vuln">Vulnerability Presentation</a>,
+    <a href="#poster">Technical Showcase Poster</a>,
+</p>
+
+<dl><big><b></b></big>
+  <li><a href="../papers/CyberSecurity_ExtendedAbstract.pdf"
+    >Cybersecurity Extended Abstract</a></li>
+</dl>
+
+<h2 id="vuln">Vulnerability Presentation Materials</h2>
+
+<dl><big><b></b></big>
+  <li><a href="api.canvasslabs.com.crt"
+    >api.canvasslabs.com certificate</a>
+    <a href="about:preferences#privacy"
+      >☰ / ⚙Preferences / Privacy &amp; Security /</a> 
+        View Certificates [I<u>m</u>port]
+  </li>
+  <li>Canvass Labs Vulenerability Demo: 
+    <a href="https://api.canvasslabs.com:5000/vulcat"
+      >Find vulnerable functions and their origins</a>
+  </li>
+  <li>Function Example:
+    <a href="https://nvd.nist.gov/vuln/detail/CVE-2016-2177"
+      >CVE-2016-2177</a>
+  </li>
+  <li>Technical Showcase Poster:
+    <a href="https://nvd.nist.gov/vuln/detail/CVE-2017-16995"
+      >CVE-2017-16995</a>
+  </li>
+</dl>
+
+<dl><big><b>Slides:</b></big>
+    <li>Motivation</li>
+    <li>Mapping English Text in CVE to package versions</li>
+    <li>Finding CVE code matching Yours</li>
+    <li>Demo: File Example: Matching Vulnerabilies with source code</li>
+    <li>Open Source Release</li>
+    <li>Take Aways</li>
+</dl>
+
+<dl><big><b>Motivation:</b></big>
+  <li></li>
+</dl>
+
+<dl><big><b><a href="https://github.com/canvasslabs/canvass_for_security-dependency_checker"
+  >Open Source Release</a>:</b></big>
+  <li>Dependency Checker</li>
+  <li><a href="https://github.com/canvasslabs/canvass_for_security-sample_vuln_db"
+    >Sample Vulnerability Database</a> (useful)
+  </li>
+  <li><a href=""
+    >Product Name and Version Range Parser</a></li>
+</dl>
+
+
+<dl><big><b>File Example:</b></big>  (slides in <b>bold</b>)
+  <li><tt>ssl/t1_lib.c</tt></li>
+  <li><b><a href="../oss19/SecurityPresentation/010_ssl_t1_lib.c_nvd_db1.png"
+    >NVD Database</a></b>: 
+      3 Vulnerabilities Found
+  </li>
+  <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2016-2177"
+     >CVE-2016-2177</a> openssl :
+       tls1_process_ticket
+     <!--
+         (<a href="../oss19/SecurityPresentation/120_tls1_process_ticket_versions.png"
+           >versions</a>)
+         <a href="../oss19/SecurityPresentation/020_tls1_process_ticket.png"
+           >Fix</a>
+      -->
+  </li>
+  <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2013-0169"
+     >CVE-2013-0169</a> android :
+       tls_decrypt_ticket
+     <!--
+         (<a href="../oss19/SecurityPresentation/130_tls_decrypt_ticket_versions.png"
+           >versions</a>)
+         <a href="../oss19/SecurityPresentation/030_tls_decrypt_ticket.png"
+           >fix</a>
+      -->
+  </li>
+  <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2014-0160"
+     >CVE-2014-0160</a> (<b><a href="../oss19/SecurityPresentation/200_CVE-2014-0160_detail.png">detail</a></b>) openssl :
+       tls1_process_heartbeat:
+    <br/> &nbsp; &nbsp;
+    a.k.a <a href="http://heartbleed.com/"
+      >The Heartbleed Bug</a> 
+         in <b><a href="../oss19/SecurityPresentation/140_tls1_process_heartbeat_versions.png"
+           >versions</a></b>: 
+           1.0.1 thru 1.0.1f
+        <br/> &nbsp; &nbsp;
+        <b><a href="../oss19/SecurityPresentation/040_tls1_process_heartbeat.png"
+           >our fix</a></b>
+        corresponds to GitHub: 
+          <a href="https://github.com/openssl/openssl/commits/master?before=d95422761116791966dcd0dd7035b46795482482+385&path%5B%5D=ssl&path%5B%5D=t1_lib.c"
+            >April 7, 2014</a> 
+          version 1.0.1g: 
+          <br/> &nbsp; &nbsp;
+          commit: 
+            <a href="https://github.com/openssl/openssl/commit/731f431497f463f3a2a97236fe0187b11c44aead#diff-97a3239e0939cd2a1cbc669d027852f1"
+              >731f431: Add heartbeat extension bounds check</a>
+  </li>
+</dl>
+
+
+<h2 id="poster"><a href="../oss19/TechnicalShowcase/CanvassLabs_TechShowCasePoster_v2-22x28.pdf"
+  >Technical Showcase Poster</a>
+  </h2>
+
+<p>See <tt>~barrett/canvass/oss19/TechnicalShowcase/</tt></p>
+
+<dl><big><b>Stuff:</b></big>
+  <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2014-0160"
+    >CVE-2014-0160</a>
+  </li>
+  <li><a href="https://drive.google.com/drive/u/1/folders/1KfLeCzjgJumz-Mt2TVrwDnSHPH3iPQ_4"
+    >Drive: OSS19 Docs</a></li>
+  <li><a href="https://ossna19.sched.com/event/PUP3/where-is-my-code-vulnerable-matching-cves-and-source-code-david-a-barrett-peter-shin-canvass-labs"
+        >Vulnerable Code Talk</a>
+      (<a href="../talks/OsSummit19/vulnerable_code_submission.pdf"
+    >submission</a>)
+  </li>
+  <li><a href="https://ossna19.sched.com/event/PUTk/open-source-license-variations-in-linux-and-android-comprehensive-examples-and-insights-peter-shin-david-a-barrett-canvass-labs"
+        >Compliance Talk</a>
+    (<a href="../talks/OsSummit19/compliance_submission.pdf"
+        >submission</a>)
+  </li>
+  <li id="poster"><a href="https://elinux.org/ELC_2019_Technical_Showcase#Poster"
+    >ELC 2019 Technical Showcase: Poster</a></li>
+  <li><a href="https://ossna19.sched.com/"
+    >Sched: OSS</a></li>
+</dl>
+
+<dl><big><b>Google Docs:</b></big> (login with canvasslabs.com email)
+  <li><a href="https://drive.google.com/drive/folders/113-PgsxU8lkLanFXLpbpVZi806r4SXgm"
+    >Product Data Sheet</a></li>
+  <li>Booth <a href="https://drive.google.com/drive/folders/1QcoMabdU3cKeQtIbIUyRwIdM36Hz441F"
+    >Banner</a>
+  </li>
+  <li><a href="https://events.linuxfoundation.org/events/open-source-summit-north-america-2019/program/open-source-summit-north-america-2019-speaker-guide/"
+    >Speaker Guide</a> 
+    <br/> &nbsp; &nbsp;
+    See "Presentation" to upload slides by 08/14/19
+    <br/> &nbsp; &nbsp;
+    See Post to OpenSource.com
+    <br/> &nbsp; &nbsp;
+    <a href="https://opensource.com/tags/open-source-summit"
+      >examples</a>, 
+    <a href="https://opensource.com/submission-style-guide"
+      >style guide</a>,
+    <a href="https://opensource.com/writers"
+      >writers</a>
+  </li>
+  <li>Questions to; cfp@linuxfoundation.org</li>
+</dl>
+
+<dl><big><b>Email: Open Source Summit</b></big>
+  <li><a href="https://mail.google.com/mail/u/1/#search/linuxfoundation/FMfcgxwCgfwmrwtPztwvvjBLLlrhKQbV"
+    >Your Submission was Accepted...License Variations</a>
+  </li>
+  <li><a href="https://mail.google.com/mail/u/1/#advanced-search/subject=Submission&subset=all&has=linuxfoundation&within=1d&sizeoperator=s_sl&sizeunit=s_smb&query=subject%3ASubmission+linuxfoundation/FMfcgxwCgfwnCGxnZDdxBnHxQzgGlgbW"
+    >Acceptance: Vunnerable Code</a></li>
+  <li><a href="https://mail.google.com/mail/u/1/#search/linuxfoundation/FMfcgxwCgfwnCGxnZDdxBnHxQzgGlgbW"
+    >Acceptance (Vuln code)</a></li>
+  <li>05/30 <a href="https://mail.google.com/mail/u/1/#search/linuxfoundation/FMfcgxwCgphtntSdzgvRHDjRQsCQCzlV"
+    >Technical Showcase Information</a>
+  </li>
+  <li>05/29 <a href="https://mail.google.com/mail/u/1/#search/linuxfoundation/FMfcgxwCgpglvrdWrdVDhQkZfBwRKChS"
+    >Speed Networking & Mentoring Session</a>
+  </li>
+  <li>06/30 <a href="https://mail.google.com/mail/u/1/#inbox/LXphbRLrghxkrJjWVgNfQFqtXlxhsgGbglglGGppGjV"
+    >email on Technical showcase</a> with link to <a href="#poster"
+      >ELC 2019 Technical Showcase: Poster</a> (above)</li>
+  </li>
+  <li>05/22 <a href="https://mail.google.com/mail/u/1/#search/linuxfoundation/FMfcgxwCgpWhCFMPGnQtfVnqbvGkhFlV"
+    >Registration Confirmed</a>
+  </li>
+  <li>05/15 <a href="https://mail.google.com/mail/u/1/#search/linuxfoundation/FMfcgxwCggBGjRbhfWnHBBkvRfcGSqKl"
+    >We added you to the list of Speakers at Open Source Summit</a></li>
+</dl>
+
+
+<hr>
+David A. Barrett,
+Tue Jul 16 13:01:02 PDT 2019
+</body>
+</html>

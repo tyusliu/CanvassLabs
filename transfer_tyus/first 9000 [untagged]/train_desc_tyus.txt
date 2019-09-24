@@ -1,0 +1,479 @@
+CVE-2012-4535
+Xen 3.4 through 4.2, and possibly earlier versions, allows local guest OS administrators to cause a denial of service (Xen infinite loop and physical CPU consumption) by setting a VCPU with an "inappropriate deadline."
+
+CVE-2004-2169
+Application Access Server (A-A-S) 1.0.37 and earlier allows remote authenticated users to cause a denial of service (application crash) via a long file request.
+
+CVE-2017-6053
+A Cross-Site Scripting issue was discovered in Trihedral VTScada Versions prior to 11.2.26. A cross-site scripting vulnerability may allow JavaScript code supplied by the attacker to execute within the user's browser.
+
+CVE-2009-0891
+The Web Services Security component in IBM WebSphere Application Server 7.0 before Fix Pack 1 (7.0.0.1), 6.1 before Fix Pack 23 (6.1.0.23),and 6.0.2 before Fix Pack 33 (6.0.2.33) does not properly enforce (1) nonce and (2) timestamp expiration values in WS-Security bindings as stored in the com.ibm.wsspi.wssecurity.core custom property, which allows remote authenticated users to conduct session hijacking attacks.
+
+CVE-2017-8040
+In Single Sign-On for Pivotal Cloud Foundry (PCF) 1.3.x versions prior to 1.3.4 and 1.4.x versions prior to 1.4.3, an XXE (XML External Entity) attack was discovered in the Single Sign-On service dashboard. Privileged users can in some cases upload malformed XML leading to exposure of data on the Single Sign-On service broker file system.
+
+CVE-2007-4543
+Cross-site scripting (XSS) vulnerability in enter_bug.cgi in Bugzilla 2.17.1 through 2.20.4, 2.22.x before 2.22.3, and 3.x before 3.0.1 allows remote attackers to inject arbitrary web script or HTML via the buildid field in the "guided form."
+
+CVE-2018-7059
+Aruba ClearPass prior to 6.6.9 has a vulnerability in the API that helps to coordinate cluster actions. An authenticated user with the "mon" permission could use this vulnerability to obtain cluster credentials which could allow privilege escalation. This vulnerability is only present when authenticated as a user with "mon" permission.
+
+CVE-2002-1912
+SkyStream EMR5000 1.16 through 1.18 does not drop packets or disable the Ethernet interface when the buffers are full, which allows remote attackers to cause a denial of service (null pointer exception and kernel panic) via a large number of packets.
+
+CVE-2017-4941
+VMware ESXi (6.0 before ESXi600-201711101-SG, 5.5 ESXi550-201709101-SG), Workstation (12.x before 12.5.8), and Fusion (8.x before 8.5.9) contain a vulnerability that could allow an authenticated VNC session to cause a stack overflow via a specific set of VNC packets. Successful exploitation of this issue could result in remote code execution in a virtual machine via the authenticated VNC session. Note: In order for exploitation to be possible in ESXi, VNC must be manually enabled in a virtual machine's .vmx configuration file. In addition, ESXi must be configured to allow VNC traffic through the built-in firewall.
+
+CVE-2016-3193
+Cross-site scripting (XSS) vulnerability in the appliance web-application in Fortinet FortiManager 5.x before 5.0.12, 5.2.x before 5.2.6, and 5.4.x before 5.4.1 and FortiAnalyzer 5.x before 5.0.13, 5.2.x before 5.2.6, and 5.4.x before 5.4.1 allows remote authenticated users to inject arbitrary web script or HTML via unspecified vectors.
+
+CVE-2014-3124
+The HVMOP_set_mem_type control in Xen 4.1 through 4.4.x allows local guest HVM administrators to cause a denial of service (hypervisor crash) or possibly execute arbitrary code by leveraging a separate qemu-dm vulnerability to trigger invalid page table translations for unspecified memory page types.
+
+CVE-2015-0901
+Cross-site scripting (XSS) vulnerability in the duwasai flashy theme 1.3 and earlier for WordPress allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.
+
+CVE-2007-1775
+Unrestricted file upload vulnerability in upload.php3 in JBrowser 2.4 and earlier allows remote attackers to upload and execute arbitrary PHP code via unspecified vectors.  NOTE: the provenance of this information is unknown; the details are obtained solely from third party information.
+
+CVE-2017-3768
+An unprivileged attacker with connectivity to the IMM2 could cause a denial of service attack on the IMM2 (Versions earlier than 4.4 for Lenovo System x and earlier than 6.4 for IBM System x). Flooding the IMM2 with a high volume of authentication failures via the Common Information Model (CIM) used by LXCA and OneCLI and other tools can exhaust available system memory which can cause the IMM2 to reboot itself until the requests cease.
+
+CVE-2006-6770
+Multiple PHP remote file inclusion vulnerabilities in Jinzora Media Jukebox 2.7 and earlier, when register_globals is enabled, allow remote attackers to execute arbitrary PHP code via a URL in the include_path parameter in (1) popup.php, (2) rss.php, (3) ajax_request.php, and (4) mediabroadcast.php.
+
+CVE-2018-12881
+Adobe Acrobat and Reader versions 2018.011.20063 and earlier, 2017.011.30102 and earlier, and 2015.006.30452 and earlier have an integer overflow vulnerability. Successful exploitation could lead to information disclosure.
+
+CVE-2013-6622
+Use-after-free vulnerability in the HTMLMediaElement::didMoveToNewDocument function in core/html/HTMLMediaElement.cpp in Blink, as used in Google Chrome before 31.0.1650.48, allows remote attackers to cause a denial of service or possibly have unspecified other impact via vectors involving the movement of a media element between documents.
+
+CVE-2014-4621
+EMC Documentum Content Server before 6.7 SP2 P17, 7.0 through P15, and 7.1 before P08 does not properly check authorization for subtypes of protected system types, which allows remote authenticated users to obtain super-user privileges for system-object creation, and bypass intended restrictions on data access and server actions, via unspecified vectors.
+
+CVE-2013-4065
+Cross-site scripting (XSS) vulnerability in iNotes in IBM Domino 8.5.x before 8.5.3 FP6 and 9.0.x before 9.0.1, when ultra-light mode is enabled, allows remote attackers to inject arbitrary web script or HTML via active content in an e-mail message, aka SPR TCLE98ZKRP.
+
+CVE-2009-3060
+Multiple cross-site scripting (XSS) vulnerabilities in Joker Board (aka JBoard) 2.0 and earlier allow remote attackers to inject arbitrary web script or HTML via (1) the notice parameter to editform.php, (2) the edit_user_message parameter to core/edit_user_message.php, or (3) the user_title parameter to inc/head.inc.php, reachable through any PHP script.
+
+CVE-2011-0152
+WebKit, as used in Apple iTunes before 10.2 on Windows, allows man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors related to iTunes Store browsing, a different vulnerability than other CVEs listed in APPLE-SA-2011-03-02-1.
+
+CVE-2006-5222
+Multiple PHP remote file inclusion vulnerabilities in Dimension of phpBB 0.2.6 and earlier allow remote attackers to execute arbitrary PHP code via a URL in the phpbb_root_path parameter in (1) includes/themen_portal_mitte.php or (2) includes/logger_engine.php.
+
+CVE-2019-7341
+Reflected - Cross Site Scripting (XSS) exists in ZoneMinder through 1.32.3, allowing an attacker to execute HTML or JavaScript code via a vulnerable 'newMonitor[LinkedMonitors]' parameter value in the view monitor (monitor.php) because proper filtration is omitted.
+
+CVE-2004-2413
+SQL injection vulnerability in VP-ASP Shopping Cart 4.0 through 5.0 allows remote attackers to execute arbitrary SQL commands via the (1) Processed0 and (2) Processed1 parameters in a POST request to shopproductselect.asp.
+
+CVE-2017-15576
+Redmine before 3.2.6 and 3.3.x before 3.3.3 mishandles Time Entry rendering in activity views, which allows remote attackers to obtain sensitive information.
+
+CVE-2018-17438
+A SIGFPE signal is raised in the function H5D__select_io() of H5Dselect.c in the HDF HDF5 through 1.10.3 library during an attempted parse of a crafted HDF file, because of incorrect protection against division by zero. It could allow a remote denial of service attack.
+
+CVE-2019-2451
+Vulnerability in the Oracle VM VirtualBox component of Oracle Virtualization (subcomponent: Core). Supported versions that are affected are prior to 5.2.24 and prior to 6.0.2. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox. While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle VM VirtualBox accessible data. CVSS 3.0 Base Score 6.5 (Confidentiality impacts). CVSS Vector: (CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N).
+
+CVE-2018-18943
+An issue was discovered in baserCMS before 4.1.4. In the Register New Category feature of the Upload menu, the category name can be used for XSS via the data[UploaderCategory][name] parameter to an admin/uploader/uploader_categories/edit URI.
+
+CVE-2014-10058
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Mobile SD 210/SD 212/SD 205, SD 400, SD 425, SD 427, SD 430, SD 435, SD 450, SD 617, SD 625, SD 650/52, SD 800, SD 845, and Snapdragon_High_Med_2016, unauthorized users can potentially modify system time.
+
+CVE-2015-1093
+FontParser in Apple iOS before 8.3 and Apple OS X before 10.10.3 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted font file.
+
+CVE-2017-10314
+Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: Memcached). Supported versions that are affected are 5.6.37 and earlier and 5.7.19 and earlier. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.0 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
+
+CVE-2017-7884
+In Adam Kropelin adk0212 APC UPS Daemon through 3.14.14, the default installation of APCUPSD allows a local authenticated, but unprivileged, user to run arbitrary code with elevated privileges by replacing the service executable apcupsd.exe with a malicious executable that will run with SYSTEM privileges at startup. This occurs because of "RW NT AUTHORITY\Authenticated Users" permissions for %SYSTEMDRIVE%\apcupsd\bin\apcupsd.exe.
+
+CVE-2018-1000658
+LimeSurvey version prior to 3.14.4 contains a file upload vulnerability in upload functionality that can result in an attacker gaining code execution via webshell. This attack appear to be exploitable via an authenticated user uploading a zip archive which can contains malicious php files that can be called under certain circumstances. This vulnerability appears to have been fixed in after commit 91d143230eb357260a19c8424b3005deb49a47f7 / version 3.14.4.
+
+CVE-2018-17476
+Incorrect dialog placement in Cast UI in Google Chrome prior to 70.0.3538.67 allowed a remote attacker to obscure the full screen warning via a crafted HTML page.
+
+CVE-2017-15426
+Insufficient policy enforcement in Omnibox in Google Chrome prior to 63.0.3239.84 allowed a remote attacker to perform domain spoofing via IDN homographs in a crafted domain name.
+
+CVE-2018-6162
+Improper deserialization in WebGL in Google Chrome on Mac prior to 68.0.3440.75 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+
+CVE-2017-16370
+An issue was discovered in Adobe Acrobat and Reader: 2017.012.20098 and earlier versions, 2017.011.30066 and earlier versions, 2015.006.30355 and earlier versions, and 11.0.22 and earlier versions. This vulnerability occurs because of a computation that reads data that is past the end of the target buffer; the computation is a part of the JavaScript engine. The use of an invalid (out-of-range) pointer offset during access of internal data structure fields causes the vulnerability. A successful attack can lead to sensitive data exposure.
+
+CVE-2015-5482
+Directory traversal vulnerability in the GD bbPress Attachments plugin before 2.3 for WordPress allows remote administrators to include and execute arbitrary local files via a .. (dot dot) in the tab parameter in the gdbbpress_attachments page to wp-admin/edit.php.
+
+CVE-2015-2873
+Trend Micro Deep Discovery Inspector (DDI) on Deep Discovery Threat appliances with software before 3.5.1477, 3.6.x before 3.6.1217, 3.7.x before 3.7.1248, 3.8.x before 3.8.1263, and other versions allows remote attackers to obtain sensitive information or change the configuration via a direct request to the (1) system log URL, (2) whitelist URL, or (3) blacklist URL.
+
+CVE-2012-1222
+Stack-based buffer overflow in RabidHamster R2/Extreme 1.65 and earlier allows remote authenticated users to execute arbitrary code via a long string to TCP port 23.
+
+CVE-2006-1194
+Integer signedness error in the enet_protocol_handle_incoming_commands function in protocol.c for ENet library CVS version Jul 2005 and earlier, as used in products including (1) Cube, (2) Sauerbraten, and (3) Duke3d_w32, allows remote attackers to cause a denial of service (application crash) via a packet with a large command length value, which leads to an invalid memory access.
+
+CVE-2014-1312
+WebKit, as used in Apple Safari before 6.1.3 and 7.x before 7.0.3, allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted web site, a different vulnerability than other WebKit CVEs listed in APPLE-SA-2014-04-01-1.
+
+CVE-2003-0460
+The rotatelogs program on Apache before 1.3.28, for Windows and OS/2 systems, does not properly ignore certain control characters that are received over the pipe, which could allow remote attackers to cause a denial of service.
+
+CVE-2018-5800
+An off-by-one error within the "LibRaw::kodak_ycbcr_load_raw()" function (internal/dcraw_common.cpp) in LibRaw versions prior to 0.18.7 can be exploited to cause a heap-based buffer overflow and subsequently cause a crash.
+
+CVE-2017-7161
+An issue was discovered in certain Apple products. Safari before 11.0.2 is affected. The issue involves the "WebKit Web Inspector" component. It allows remote attackers to execute arbitrary code via special characters that trigger command injection.
+
+CVE-2009-2868
+Unspecified vulnerability in Cisco IOS 12.2 through 12.4, when certificate-based authentication is enabled for IKE, allows remote attackers to cause a denial of service (Phase 1 SA exhaustion) via crafted requests, aka Bug IDs CSCsy07555 and CSCee72997.
+
+CVE-2018-16028
+Adobe Acrobat and Reader versions 2019.008.20081 and earlier, 2019.008.20080 and earlier, 2019.008.20081 and earlier, 2017.011.30106 and earlier version, 2017.011.30105 and earlier version, 2015.006.30457 and earlier, and 2015.006.30456 and earlier have an out-of-bounds read vulnerability. Successful exploitation could lead to information disclosure.
+
+CVE-2017-3198
+GIGABYTE BRIX UEFI firmware does not cryptographically validate images prior to updating the system firmware. Additionally, the firmware updates are served over HTTP. An attacker can make arbitrary modifications to firmware images without being detected.
+
+CVE-2018-17639
+This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader 9.2.0.9297. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the setElement method. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-6475.
+
+CVE-2017-10622
+An authentication bypass vulnerability in Juniper Networks Junos Space Network Management Platform may allow a remote unauthenticated network based attacker to login as any privileged user. This issue only affects Junos Space Network Management Platform 17.1R1 without Patch v1 and 16.1 releases prior to 16.1R3. This issue was found by an external security researcher.
+
+CVE-2017-9449
+SQL injection vulnerability in BigTree CMS through 4.2.18 allows remote authenticated users to execute arbitrary SQL commands via core/admin/modules/developer/modules/views/create.php. The attacker creates a crafted table name at admin/developer/modules/views/create/ and the injection is visible at admin/ajax/auto-modules/views/searchable-page/ or admin/modules_name.
+
+CVE-2014-0909
+The Administration and Reporting Tool in IBM Rational License Key Server (RLKS) 8.1.4.x before 8.1.4.4 does not set the secure flag for the session cookie in an https session, which makes it easier for remote attackers to capture this cookie by intercepting its transmission within an http session.
+
+CVE-2014-2109
+The TCP Input module in Cisco IOS 12.2 through 12.4 and 15.0 through 15.4, when NAT is used, allows remote attackers to cause a denial of service (memory consumption or device reload) via crafted TCP packets, aka Bug IDs CSCuh33843 and CSCuj41494.
+
+CVE-2018-17669
+This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader 9.2.0.9297. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the name property of a XFA object. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-6523.
+
+CVE-2017-2327
+A denial of service vulnerability in Juniper Networks NorthStar Controller Application prior to version 2.1.0 Service Pack 1 may allow an authenticated malicious user to consume large amounts of system resources leading to a cascading denial of services.
+
+CVE-2018-20590
+Ivan Cordoba Generic Content Management System (CMS) through 2018-04-28 has XSS via the Administrator/users.php user ID.
+
+CVE-2006-5533
+Multiple PHP remote file inclusion vulnerabilities in AROUNDMe 0.6.9, and possibly earlier, when register_globals is enabled, allow remote attackers to execute arbitrary PHP code via a URL in the templatePath parameter in template/barnraiser_01/pol_view.tpl.php and other unspecified PHP scripts, a different vector than CVE-2006-5401.
+
+CVE-2014-9563
+CRLF injection vulnerability in the web-based management (WBM) interface in Unify (former Siemens) OpenStage SIP and OpenScape Desk Phone IP V3 devices before R3.32.0 allows remote authenticated users to modify the root password and consequently access the debug port using the serial interface via the ssh-password parameter to page.cmd.
+
+CVE-2008-6146
+SQL injection vulnerability in pm.php in DeluxeBB 1.2 and earlier, when magic_quotes_gpc is disabled, allows remote attackers to execute arbitrary SQL commands via a delete##### parameter in a Delete action, a different vector than CVE-2005-2989.
+
+CVE-2006-3829
+Cross-site request forgery (CSRF) vulnerability in bmc/admin.php in Kailash Nadh boastMachine (formerly bMachine) 3.1 and earlier allows remote attackers to perform unauthorized actions as an administrator and delete arbitrary user accounts via a delete_user action.
+
+CVE-2014-9473
+Unrestricted file upload vulnerability in lib_nonajax.php in the CformsII plugin 14.7 and earlier for WordPress allows remote attackers to execute arbitrary code by uploading a file with an executable extension via the cf_uploadfile2[] parameter, then accessing the file via a direct request to the file in the default upload directory.
+
+CVE-2011-0198
+Heap-based buffer overflow in Apple Type Services (ATS) in Apple Mac OS X before 10.6.8 allows remote attackers to execute arbitrary code via a crafted embedded TrueType font.
+
+CVE-2015-5490
+The _views_fetch_data method in includes/cache.inc in the Views module 7.x-3.5 through 7.x-3.10 for Drupal does not rebuild the full cache if the static cache is not empty, which allows remote attackers to bypass intended filters and obtain access to hidden content via unspecified vectors.
+
+CVE-2014-0124
+The identity-reporting implementations in mod/forum/renderer.php and mod/quiz/override_form.php in Moodle through 2.3.11, 2.4.x before 2.4.9, 2.5.x before 2.5.5, and 2.6.x before 2.6.2 do not properly restrict the display of e-mail addresses, which allows remote authenticated users to obtain sensitive information by using the (1) Forum or (2) Quiz module.
+
+CVE-2016-10486
+In Android before 2018-04-05 or earlier security patch level on Qualcomm Snapdragon Automobile and Snapdragon Mobile MDM9640, MDM9645, SD 210/SD 212/SD 205, SD 450, SD 617, SD 625, SD 650/52, SD 808, SD 810, SD 820, and SD 820A, PD failure reason string from user PD is used directly in root PD, so if the buffer parameter is non-NULL terminated in Diag F3 APIs, a buffer overread occurs.
+
+CVE-2011-4190
+The kdump implementation is missing the host key verification in the kdump and mkdumprd OpenSSH integration of kdump prior to version 2012-01-20. This is similar to CVE-2011-3588, but different in that the kdump implementation is specific to SUSE. A remote malicious kdump server could use this flaw to impersonate the correct kdump server to obtain security sensitive information (kdump core files).
+
+CVE-2017-2736
+VCM5010 with software versions earlier before V100R002C50SPC100 has a command injection vulnerability. This is due to insufficient validation of user's input. An authenticated attacker could launch a command injection attack.
+
+CVE-2016-3240
+Microsoft Internet Explorer 9 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka "Internet Explorer Memory Corruption Vulnerability," a different vulnerability than CVE-2016-3241 and CVE-2016-3242.
+
+CVE-2014-3411
+Unspecified vulnerability in the NSM XDB service in Juniper NSM before 2012.2R8 allows remote attackers to execute arbitrary code via unspecified vectors.
+
+CVE-2010-2100
+The (1) htmlentities, (2) htmlspecialchars, (3) str_getcsv, (4) http_build_query, (5) strpbrk, and (6) strtr functions in PHP 5.2 through 5.2.13 and 5.3 through 5.3.2 allow context-dependent attackers to obtain sensitive information (memory contents) by causing a userspace interruption of an internal function, related to the call time pass by reference feature.
+
+CVE-2006-2313
+PostgreSQL 8.1.x before 8.1.4, 8.0.x before 8.0.8, 7.4.x before 7.4.13, 7.3.x before 7.3.15, and earlier versions allows context-dependent attackers to bypass SQL injection protection methods in applications via invalid encodings of multibyte characters, aka one variant of "Encoding-Based SQL Injection."
+
+CVE-2002-0673
+The enrollment process for Pingtel xpressa SIP-based voice-over-IP phone 1.2.5 through 1.2.7.4 allows attackers with physical access to the phone to log out the current user and re-register the phone using MyPingtel Sign-In to gain remote access and perform unauthorized actions.
+
+CVE-2007-5240
+Visual truncation vulnerability in the Java Runtime Environment in Sun JDK and JRE 6 Update 2 and earlier, JDK and JRE 5.0 Update 12 and earlier, SDK and JRE 1.4.2_15 and earlier, and SDK and JRE 1.3.1_20 and earlier allows remote attackers to circumvent display of the untrusted-code warning banner by creating a window larger than the workstation screen.
+
+CVE-2017-4975
+An issue was discovered in Pivotal PCF Tile Generator versions prior to 6.0.0. Tiles created by the PCF Tile Generator create a running open security group that overrides security groups set by the operator.
+
+CVE-2018-7940
+Huawei smart phones Mate 10 and Mate 10 Pro with earlier versions than 8.0.0.129(SP2C00) and earlier versions than 8.0.0.129(SP2C01) have an authentication bypass vulnerability. An attacker with high privilege obtains the smart phone and bypass the activation function by some specific operations.
+
+CVE-2014-0966
+SQL injection vulnerability in the GDS component in IBM InfoSphere Master Data Management - Collaborative Edition 10.x and 11.x before 11.0-FP5 and InfoSphere Master Data Management Server for Product Information Management 9.x through 11.x before 11.3-IF2 allows remote authenticated users to execute arbitrary SQL commands via unspecified vectors.
+
+CVE-2019-1677
+A vulnerability in Cisco Webex Meetings for Android could allow an unauthenticated, local attacker to perform a cross-site scripting attack against the application. The vulnerability is due to insufficient validation of the application input parameters. An attacker could exploit this vulnerability by sending a malicious request to the Webex Meetings application through an intent. A successful exploit could allow the attacker to execute script code in the context of the Webex Meetings application. Versions prior to 11.7.0.236 are affected.
+
+CVE-2016-7147
+Cross-site scripting (XSS) vulnerability in the manage_findResult component in the search feature in Zope ZMI in Plone before 4.3.12 and 5.x before 5.0.7 allows remote attackers to inject arbitrary web script or HTML via vectors involving double quotes, as demonstrated by the obj_ids:tokens parameter. NOTE: this vulnerability exists because of an incomplete fix for CVE-2016-7140.
+
+CVE-2016-4739
+mDNSResponder in Apple OS X before 10.12, when VMnet.framework is used, arranges for a DNS proxy to listen on all interfaces, which allows remote attackers to obtain sensitive information by sending a DNS query to an unintended interface.
+
+CVE-2006-1960
+Cross-site scripting (XSS) vulnerability in the appliance web user interface in Cisco CiscoWorks Wireless LAN Solution Engine (WLSE) and WLSE Express before 2.13 allows remote attackers to inject arbitrary web script or HTML, possibly via the displayMsg parameter to archiveApplyDisplay.jsp, aka bug ID CSCsc01095.
+
+CVE-2002-2161
+Kerio Personal Firewall (KPF) 2.1.4 and earlier allows remote attackers to cause a denial of service (hang and CPU consumption) via a SYN packet flood.
+
+CVE-2009-2910
+arch/x86/ia32/ia32entry.S in the Linux kernel before 2.6.31.4 on the x86_64 platform does not clear certain kernel registers before a return to user mode, which allows local users to read register values from an earlier process by switching an ia32 process to 64-bit mode.
+
+CVE-2002-0591
+Directory traversal vulnerability in AOL Instant Messenger (AIM) 4.8 beta and earlier allows remote attackers to create arbitrary files and execute commands via a Direct Connection with an IMG tag with a SRC attribute that specifies the target filename.
+
+CVE-2019-5766
+Incorrect handling of origin taint checking in Canvas in Google Chrome prior to 72.0.3626.81 allowed a remote attacker to leak cross-origin data via a crafted HTML page.
+
+CVE-2017-17541
+A Cross-site Scripting (XSS) vulnerability in Fortinet FortiManager 6.0.0, 5.6.4 and below versions, FortiAnalyzer 6.0.0, 5.6.4 and below versions allows inject Javascript code and HTML tags through the CN value of CA and CRL certificates via the import CA and CRL certificates feature.
+
+CVE-2004-2383
+Microsoft Internet Explorer 5.0 through 6.0 allows remote attackers to bypass cross-frame scripting restrictions and capture keyboard events from other domains via an HTML document with Javascript that is outside a frameset that includes the target domain, then forcing the frameset to maintain focus.  NOTE: the discloser claimed that the vendor does not categorize this as a vulnerability, but it can be used in a spoofing scenario; the discloser provides alternate scenarios. Spoofing scenarios are currently included in CVE.
+
+CVE-2017-2305
+On Juniper Networks Junos Space versions prior to 16.1R1, due to an insufficient authorization check, readonly users on the Junos Space administrative web interface can create privileged users, allowing privilege escalation.
+
+CVE-2018-0031
+Receipt of specially crafted UDP/IP packets over MPLS may be able to bypass a stateless firewall filter. The crafted UDP packets must be encapsulated and meet a very specific packet format to be classified in a way that bypasses IP firewall filter rules. The packets themselves do not cause a service interruption (e.g. RPD crash), but receipt of a high rate of UDP packets may be able to contribute to a denial of service attack. This issue only affects processing of transit UDP/IP packets over MPLS, received on an interface with MPLS enabled. TCP packet processing and non-MPLS encapsulated UDP packet processing are unaffected by this issue. Affected releases are Juniper Networks Junos OS: 12.1X46 versions prior to 12.1X46-D76; 12.3 versions prior to 12.3R12-S10; 12.3X48 versions prior to 12.3X48-D66, 12.3X48-D70; 14.1X53 versions prior to 14.1X53-D47; 15.1 versions prior to 15.1F6-S10, 15.1R4-S9, 15.1R6-S6, 15.1R7; 15.1X49 versions prior to 15.1X49-D131, 15.1X49-D140; 15.1X53 versions prior to 15.1X53-D59 on EX2300/EX3400; 15.1X53 versions prior to 15.1X53-D67 on QFX10K; 15.1X53 versions prior to 15.1X53-D233 on QFX5200/QFX5110; 15.1X53 versions prior to 15.1X53-D471, 15.1X53-D490 on NFX; 16.1 versions prior to 16.1R3-S8, 16.1R4-S9, 16.1R5-S4, 16.1R6-S3, 16.1R7; 16.2 versions prior to 16.2R1-S6, 16.2R2-S5, 16.2R3; 17.1 versions prior to 17.1R1-S7, 17.1R2-S7, 17.1R3; 17.2 versions prior to 17.2R1-S6, 17.2R2-S4, 17.2R3; 17.2X75 versions prior to 17.2X75-D100; 17.3 versions prior to 17.3R1-S4, 17.3R2-S2, 17.3R3; 17.4 versions prior to 17.4R1-S3, 17.4R2; 18.1 versions prior to 18.1R2; 18.2X75 versions prior to 18.2X75-D5.
+
+CVE-2017-2276
+Buffer overflow in WG-C10 v3.0.79 and earlier allows an attacker to execute arbitrary commands via unspecified vectors.
+
+CVE-2010-2829
+Unspecified vulnerability in the H.323 implementation in Cisco IOS 12.1 through 12.4 and 15.0 through 15.1, and IOS XE 2.5.x before 2.5.2 and 2.6.x before 2.6.1, allows remote attackers to cause a denial of service (traceback and device reload) via crafted H.323 packets, aka Bug ID CSCtd33567.
+
+CVE-2014-7885
+Multiple unspecified vulnerabilities in HP ArcSight Enterprise Security Manager (ESM) before 6.8c have unknown impact and remote attack vectors.
+
+CVE-2019-0025
+A persistent cross-site scripting (XSS) vulnerability in RADIUS configuration menu of Juniper ATP may allow authenticated user to inject arbitrary script and steal sensitive data and credentials from a web administration session, possibly tricking a follow-on administrative user to perform administrative actions on the device. This issue affects Juniper ATP 5.0 versions prior to 5.0.3.
+
+CVE-2003-0373
+Multiple buffer overflows in libnasl in Nessus before 2.0.6 allow local users with plugin upload privileges to cause a denial of service (core dump) and possibly execute arbitrary code via (1) a long proto argument to the scanner_add_port function, (2) a long user argument to the ftp_log_in function, (3) a long pass argument to the ftp_log_in function.
+
+CVE-2005-2994
+Unspecified vulnerability in the web client for IBM Rational ClearQuest 2002.05.00 and 2002.05.20, and 2003.06.00 through 2003.06.15 before SR5, allows remote attackers to execute XML Style Sheets (XSS).
+
+CVE-2014-2799
+Microsoft Internet Explorer 6 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka "Internet Explorer Memory Corruption Vulnerability," a different vulnerability than CVE-2014-4059, CVE-2014-4065, CVE-2014-4079, CVE-2014-4081, CVE-2014-4083, CVE-2014-4085, CVE-2014-4088, CVE-2014-4090, CVE-2014-4094, CVE-2014-4097, CVE-2014-4100, CVE-2014-4103, CVE-2014-4104, CVE-2014-4105, CVE-2014-4106, CVE-2014-4107, CVE-2014-4108, CVE-2014-4109, CVE-2014-4110, and CVE-2014-4111.
+
+CVE-2011-4914
+The ROSE protocol implementation in the Linux kernel before 2.6.39 does not verify that certain data-length values are consistent with the amount of data sent, which might allow remote attackers to obtain sensitive information from kernel memory or cause a denial of service (out-of-bounds read) via crafted data to a ROSE socket.
+
+CVE-2009-5092
+Cross-site scripting (XSS) vulnerability in the management interface in Microsoft FAST ESP 5.1.5 and earlier allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.
+
+CVE-2017-6019
+An issue was discovered in Schneider Electric Conext ComBox, model 865-1058, all firmware versions prior to V3.03 BN 830. A series of rapid requests to the device may cause it to reboot.
+
+CVE-2003-1045
+votes.cgi in Bugzilla 2.16.3 and earlier, and 2.17.1 through 2.17.4, allows remote attackers to read a user's voting page when that user has voted on a restricted bug, which allows remote attackers to read potentially sensitive voting information by modifying the who parameter.
+
+CVE-2018-17659
+This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader 9.2.0.9297. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the title property of a Host object. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-6511.
+
+CVE-2011-5284
+Cross-site request forgery (CSRF) vulnerability in the web management interface in httpd/cgi-bin/shutdown.cgi in Smoothwall Express 3.1 and 3.0 SP3 and earlier allows remote attackers to hijack the authentication of administrators for requests that perform a reboot via a request to cgi-bin/shutdown.cgi.
+
+CVE-2017-6045
+An Information Exposure issue was discovered in Trihedral VTScada Versions prior to 11.2.26. Some files are exposed within the web server application to unauthenticated users. These files may contain sensitive configuration information.
+
+CVE-2018-10822
+Directory traversal vulnerability in the web interface on D-Link DWR-116 through 1.06, DIR-140L through 1.02, DIR-640L through 1.02, DWR-512 through 2.02, DWR-712 through 2.02, DWR-912 through 2.02, DWR-921 through 2.02, and DWR-111 through 1.01 devices allows remote attackers to read arbitrary files via a /.. or // after "GET /uir" in an HTTP request.  NOTE: this vulnerability exists because of an incorrect fix for CVE-2017-6190.
+
+CVE-2009-4024
+Argument injection vulnerability in the ping function in Ping.php in the Net_Ping package before 2.4.5 for PEAR allows remote attackers to execute arbitrary shell commands via the host parameter.  NOTE: this has also been reported as a shell metacharacter problem.
+
+CVE-2012-5118
+Google Chrome before 23.0.1271.64 on Mac OS X does not properly validate an integer value during the handling of GPU command buffers, which allows remote attackers to cause a denial of service or possibly have unspecified other impact via unknown vectors.
+
+CVE-2017-15428
+Insufficient data validation in V8 builtins string generator could lead to out of bounds read and write access in V8 in Google Chrome prior to 62.0.3202.94 and allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page.
+
+CVE-2018-3829
+In Elastic Cloud Enterprise (ECE) versions prior to 1.1.4 it was discovered that a user could scale out allocators on new hosts with an invalid roles token. An attacker with access to the previous runner ID and IP address of the coordinator-host could add a allocator to an existing ECE install to gain access to other clusters data.
+
+CVE-2009-2295
+Multiple integer overflows in CamlImages 2.2 and earlier might allow context-dependent attackers to execute arbitrary code via a crafted PNG image with large width and height values that trigger a heap-based buffer overflow in the (1) read_png_file or (2) read_png_file_as_rgb24 function.
+
+CVE-2008-5351
+Java Runtime Environment (JRE) for Sun JDK and JRE 6 Update 10 and earlier; JDK and JRE 5.0 Update 16 and earlier; and SDK and JRE 1.4.2_18 and earlier accepts UTF-8 encodings that are not the "shortest" form, which makes it easier for attackers to bypass protection mechanisms for other applications that rely on shortest-form UTF-8 encodings.
+
+CVE-2007-0511
+Multiple PHP remote file inclusion vulnerabilities in phpXMLDOM (phpXD) 0.3 and earlier allow remote attackers to execute arbitrary PHP code via a URL in the path parameter to (1) dom.php, (2) dtd.php, or (3) parser.php in include/.
+
+CVE-2015-5568
+Adobe Flash Player before 18.0.0.241 and 19.x before 19.0.0.185 on Windows and OS X and before 11.2.202.521 on Linux, Adobe AIR before 19.0.0.190, Adobe AIR SDK before 19.0.0.190, and Adobe AIR SDK & Compiler before 19.0.0.190 allow attackers to cause a denial of service (vector-length corruption) or possibly have unspecified other impact via unknown vectors.
+
+CVE-2017-3561
+Vulnerability in the Oracle VM VirtualBox component of Oracle Virtualization (subcomponent: Core). Supported versions that are affected are Prior to 5.0.38 and Prior to 5.1.20. Easily "exploitable" vulnerability allows low privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox. While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Oracle VM VirtualBox. CVSS 3.0 Base Score 8.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H).
+
+CVE-2013-3186
+The Protected Mode feature in Microsoft Internet Explorer 7 through 10 on Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows Server 2012, and Windows RT does not properly implement the Integrity Access Level (aka IL) protection mechanism, which allows remote attackers to obtain medium-integrity privileges by leveraging access to a low-integrity process, aka "Process Integrity Level Assignment Vulnerability."
+
+CVE-2000-0428
+Buffer overflow in the SMTP gateway for InterScan Virus Wall 3.32 and earlier allows a remote attacker to execute arbitrary commands via a long filename for a uuencoded attachment.
+
+CVE-2017-8151
+Huawei Honor 5S smart phones with software the versions before TAG-TL00C01B173 have an authentication bypass vulnerability due to the improper design of some components. An attacker can get a user's smart phone and install malicious apps in the mobile phone, allowing the attacker to reset the password and fingerprint of the phone without authentication.
+
+CVE-2013-6731
+IBM Netezza Performance Portal 2.x before 2.0.0.3 allows remote authenticated users to change arbitrary passwords via an HTTP POST request.
+
+CVE-2017-12606
+OpenCV (Open Source Computer Vision Library) through 3.3 has an out-of-bounds write error in the function FillColorRow4 in utils.cpp when reading an image file by using cv::imread.
+
+CVE-2017-16606
+This vulnerability allows remote attackers to execute code by creating arbitrary files on vulnerable installations of NetGain Systems Enterprise Manager 7.2.730 build 1034. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the org.apache.jsp.u.jsp._3d.add_005f3d_005fview_005fdo_jsp servlet, which listens on TCP port 8081 by default. When parsing the filename parameter, the process does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code under the context of Administrator. Was ZDI-CAN-5197.
+
+CVE-2013-3347
+Integer overflow in Adobe Flash Player before 11.7.700.232 and 11.8.x before 11.8.800.94 on Windows and Mac OS X, before 11.2.202.297 on Linux, before 11.1.111.64 on Android 2.x and 3.x, and before 11.1.115.69 on Android 4.x allows attackers to execute arbitrary code via PCM data that is not properly handled during resampling.
+
+CVE-2008-4685
+Use-after-free vulnerability in the dissect_q931_cause_ie function in packet-q931.c in the Q.931 dissector in Wireshark 0.10.3 through 1.0.3 allows remote attackers to cause a denial of service (application crash or abort) via certain packets that trigger an exception.
+
+CVE-2017-3188
+The dotCMS administration panel, versions 3.7.1 and earlier, "Push Publishing" feature in Enterprise Pro is vulnerable to path traversal. When "Bundle" tar.gz archives uploaded to the Push Publishing feature are decompressed, the filenames of its contents are not properly checked, allowing for writing files to arbitrary directories on the file system. These archives may be uploaded directly via the administrator panel, or using the CSRF vulnerability (CVE-2017-3187). An unauthenticated remote attacker may perform actions with the dotCMS administrator panel with the same permissions of a victim user or execute arbitrary system commands with the permissions of the user running the dotCMS application.
+
+CVE-2018-7166
+In all versions of Node.js 10 prior to 10.9.0, an argument processing flaw can cause `Buffer.alloc()` to return uninitialized memory. This method is intended to be safe and only return initialized, or cleared, memory. The third argument specifying `encoding` can be passed as a number, this is misinterpreted by `Buffer's` internal "fill" method as the `start` to a fill operation. This flaw may be abused where `Buffer.alloc()` arguments are derived from user input to return uncleared memory blocks that may contain sensitive information.
+
+CVE-2014-2792
+Microsoft Internet Explorer 9 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka "Internet Explorer Memory Corruption Vulnerability," a different vulnerability than CVE-2014-2786 and CVE-2014-2813.
+
+CVE-2016-1394
+Cisco Firepower System Software 6.0.0 through 6.1.0 has a hardcoded account, which allows remote attackers to obtain CLI access by leveraging knowledge of the password, aka Bug ID CSCuz56238.
+
+CVE-2017-11220
+Adobe Acrobat Reader 2017.009.20058 and earlier, 2017.008.30051 and earlier, 2015.006.30306 and earlier, and 11.0.20 and earlier has an exploitable heap overflow vulnerability in an internal data structure. Successful exploitation could lead to arbitrary code execution.
+
+CVE-2001-0702
+Cerberus FTP 1.5 and earlier allows remote attackers to cause a denial of service, and possibly execute arbitrary code, via a long (1) username, (2) password, or (3) PASV command.
+
+CVE-2007-4685
+The kernel in Apple Mac OS X 10.4 through 10.4.10 allows local users to gain privileges by executing setuid or setgid programs in which the stdio, stderr, or stdout file descriptors are "in an unexpected state."
+
+CVE-2006-2231
+Multiple cross-site scripting (XSS) vulnerabilities in addguest.cgi in Big Webmaster Guestbook Script 1.02 and earlier allow remote attackers to inject arbitrary web script or HTML via the (1) mail, (2) site, (3) city, (4) state, (5) country, and possibly (6) name fields, which are viewed via viewguest.cgi.
+
+CVE-2013-4155
+OpenStack Swift before 1.9.1 in Folsom, Grizzly, and Havana allows authenticated users to cause a denial of service ("superfluous" tombstone consumption and Swift cluster slowdown) via a DELETE request with a timestamp that is older than expected.
+
+CVE-2015-6009
+Multiple SQL injection vulnerabilities in Web Reference Database (aka refbase) through 0.9.6 allow remote attackers to execute arbitrary SQL commands via (1) the where parameter to rss.php or (2) the sqlQuery parameter to search.php, a different issue than CVE-2015-7382.
+
+CVE-2017-8183
+MTK platform in Huawei smart phones with software of earlier than Nice-AL00C00B160 versions, earlier than Nice-AL10C00B140 versions has a any memory access vulnerability. An attacker tricks a user into installing a malicious application on the smart phone, and send given parameter to cause to any memory access vulnerabilities, leading to sensitive information leakage.
+
+CVE-2002-1865
+Buffer overflow in the Embedded HTTP server, as used in (1) D-Link DI-804 4.68, Dl-704 V2.56b6, and Dl-704 V2.56b5 and (2) Linksys Etherfast BEFW11S4 Wireless AP + Cable/DSL Router 1.37.2 through 1.42.7 and Linksys WAP11 1.3 and 1.4, allows remote attackers to cause a denial of service (crash) via a long header, as demonstrated using the Host header.
+
+CVE-2017-5111
+A use after free in PDFium in Google Chrome prior to 61.0.3163.79 for Linux, Windows, and Mac allowed a remote attacker to potentially exploit memory corruption via a crafted PDF file.
+
+CVE-2017-3058
+Adobe Flash Player versions 25.0.0.127 and earlier have an exploitable use after free vulnerability in the sound class. Successful exploitation could lead to arbitrary code execution.
+
+CVE-2017-10894
+StreamRelay.NET.exe ver2.14.0.7 and earlier allows remote attackers to cause a denial of service via unspecified vectors.
+
+CVE-2018-1000224
+Godot Engine version All versions prior to 2.1.5, all 3.0 versions prior to 3.0.6. contains a Signed/unsigned comparison, wrong buffer size chackes, integer overflow, missing padding initialization vulnerability in (De)Serialization functions (core/io/marshalls.cpp) that can result in DoS (packet of death), possible leak of uninitialized memory. This attack appear to be exploitable via A malformed packet is received over the network by a Godot application that uses built-in serialization (e.g. game server, or game client). Could be triggered by multiplayer opponent. This vulnerability appears to have been fixed in 2.1.5, 3.0.6, master branch after commit feaf03421dda0213382b51aff07bd5a96b29487b.
+
+CVE-2019-3584
+Exploitation of Authentication vulnerability in MVision Endpoint in McAfee MVision Endpoint Prior to 1811 Update 1 (18.11.31.62) allows authenticated administrator users --> administrators to Remove MVision Endpoint via unspecified vectors.
+
+CVE-2015-0805
+The Off Main Thread Compositing (OMTC) implementation in Mozilla Firefox before 37.0 makes an incorrect memset call during interaction with the mozilla::layers::BufferTextureClient::AllocateForSurface function, which allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via vectors that trigger rendering of 2D graphics content.
+
+CVE-2016-0803
+libstagefright in mediaserver in Android 4.x before 4.4.4, 5.x before 5.1.1 LMY49G, and 6.x before 2016-02-01 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted media file that triggers a large memory allocation in the (1) SoftMPEG4Encoder or (2) SoftVPXEncoder component, aka internal bug 25812794.
+
+CVE-2019-0022
+Juniper ATP ships with hard coded credentials in the Cyphort Core instance which gives an attacker the ability to take full control of any installation of the software. Affected releases are Juniper Networks Juniper ATP: 5.0 versions prior to 5.0.3.
+
+CVE-2017-4972
+An issue was discovered in Cloud Foundry Foundation cf-release versions prior to v257; UAA release 2.x versions prior to v2.7.4.14, 3.6.x versions prior to v3.6.8, 3.9.x versions prior to v3.9.10, and other versions prior to v3.15.0; and UAA bosh release (uaa-release) 13.x versions prior to v13.12, 24.x versions prior to v24.7, and other versions prior to v30. An attacker can use a blind SQL injection attack to query the contents of the UAA database.
+
+CVE-2015-7225
+Tinfoil Devise-two-factor before 2.0.0 does not strictly follow section 5.2 of RFC 6238 and does not "burn" a successfully validated one-time password (aka OTP), which allows remote or physically proximate attackers with a target user's login credentials to log in as said user by obtaining the OTP through performing a man-in-the-middle attack between the provider and verifier, or shoulder surfing, and replaying the OTP in the current time-step.
+
+CVE-2017-14773
+Skybox Manager Client Application prior to 8.5.501 is prone to an elevation of privileges vulnerability during authentication of a valid user in a debugger-pause state. The vulnerability can only be exploited by a local authenticated attacker.
+
+CVE-2007-0316
+Multiple SQL injection vulnerabilities in All In One Control Panel (AIOCP) 1.3.010 and earlier, when magic_quotes_gpc is disabled, allow remote attackers to execute arbitrary SQL commands via the (1) xuser_name parameter to shared/code/cp_authorization.php, and the (2) did parameter to public/code/cp_downloads.php, different vectors than CVE-2007-0223.
+
+CVE-2018-8789
+FreeRDP prior to version 2.0.0-rc4 contains several Out-Of-Bounds Reads in the NTLM Authentication module that results in a Denial of Service (segfault).
+
+CVE-2018-18344
+Inappropriate allowance of the setDownloadBehavior devtools protocol feature in Extensions in Google Chrome prior to 71.0.3578.80 allowed a remote attacker with control of an installed extension to access files on the local file system via a crafted Chrome Extension.
+
+CVE-2014-1645
+SQL injection vulnerability in forcepasswd.do in the management GUI in Symantec LiveUpdate Administrator (LUA) 2.x before 2.3.2.110 allows remote attackers to execute arbitrary SQL commands via unspecified vectors.
+
+CVE-2012-3424
+The decode_credentials method in actionpack/lib/action_controller/metal/http_authentication.rb in Ruby on Rails 3.x before 3.0.16, 3.1.x before 3.1.7, and 3.2.x before 3.2.7 converts Digest Authentication strings to symbols, which allows remote attackers to cause a denial of service by leveraging access to an application that uses a with_http_digest helper method, as demonstrated by the authenticate_or_request_with_http_digest method.
+
+CVE-2018-6263
+NVIDIA GeForce Experience contains a vulnerability in all versions prior to 3.16 on Windows in which an attacker who has access to a local user account can plant a malicious dynamic link library (DLL) during application installation, which may lead to escalation of privileges.
+
+CVE-2017-4913
+VMware Workstation (12.x prior to 12.5.3) and Horizon View Client (4.x prior to 4.4.0) contain an integer-overflow vulnerability in the True Type Font parser in the TPView.dll. On Workstation, this may allow a guest to execute code or perform a Denial of Service on the Windows OS that runs Workstation. In the case of a Horizon View Client, this may allow a View desktop to execute code or perform a Denial of Service on the Windows OS that runs the Horizon View Client. Exploitation is only possible if virtual printing has been enabled. This feature is not enabled by default on Workstation but it is enabled by default on Horizon View.
+
+CVE-2016-7561
+Fortinet FortiWLC 6.1-2-29 and earlier, 7.0-9-1, 7.0-10-0, 8.0-5-0, 8.1-2-0, and 8.2-4-0 allow administrators to obtain sensitive user credentials by reading the pam.log file.
+
+CVE-2014-5399
+SQL injection vulnerability in Schneider Electric Wonderware Information Server (WIS) Portal 4.0 SP1 through 5.5 allows remote attackers to execute arbitrary SQL commands via unspecified vectors.
+
+CVE-2013-4460
+Cross-site scripting (XSS) vulnerability in account_sponsor_page.php in MantisBT 1.0.0 through 1.2.15 allows remote authenticated users to inject arbitrary web script or HTML via a project name.
+
+CVE-2018-3650
+Insufficient Input Validation in Bleach module in INTEL Distribution for Python versions prior to IDP 2018 Update 2 allows unprivileged user to bypass URI sanitization via local vector.
+
+CVE-2015-0581
+The XML parser in Cisco Prime Service Catalog before 10.1 allows remote authenticated users to read arbitrary files or cause a denial of service (CPU and memory consumption) via an external entity declaration in conjunction with an entity reference, as demonstrated by reading private keys, related to an XML External Entity (XXE) issue, aka Bug ID CSCup92880.
+
+CVE-2005-2556
+core/database_api.php in Mantis 0.19.0a1 through 1.0.0a3, with register_globals enabled, allows remote attackers to connect to internal databases by modifying the g_db_type variable and monitoring the speed of responses, as identified by bug#0005956.
+
+CVE-2019-7339
+POST - Cross Site Scripting (XSS) exists in ZoneMinder through 1.32.3, allowing an attacker to execute HTML or JavaScript code via a vulnerable 'level' parameter value in the view log (log.php) because proper filtration is omitted.
+
+CVE-2006-6574
+Mantis before 1.1.0a2 does not implement per-item access control for Issue History (Bug History), which allows remote attackers to obtain sensitive information by reading the Change column, as demonstrated by the Change column of a custom field.
+
+CVE-2012-1688
+Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.61 and earlier, and 5.5.21 and earlier, allows remote authenticated users to affect availability, related to Server DML.
+
+CVE-2017-1000122
+The UNIX IPC layer in WebKit, including WebKitGTK+ prior to 2.16.3, does not properly validate certain message metadata, allowing a compromised secondary process to cause a denial of service (release assertion) of the UI process. This vulnerability does not affect Apple products.

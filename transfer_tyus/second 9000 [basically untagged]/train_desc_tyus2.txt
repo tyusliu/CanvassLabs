@@ -1,0 +1,419 @@
+CVE-2006-3566
+search.results.php in HiveMail 3.1 and earlier allows remote attackers to obtain the installation path via certain manipulations related to the (1) searchdate and (2) folderids parameters.
+
+CVE-2018-0422
+A vulnerability in the folder permissions of Cisco Webex Meetings client for Windows could allow an authenticated, local attacker to modify locally stored files and execute code on a targeted device with the privilege level of the user. The vulnerability is due to folder permissions that grant a user the permission to read, write, and execute files in the Webex folders. An attacker could exploit this vulnerability to write malicious files to the Webex client directory, affecting all other users of the targeted device. A successful exploit could allow a user to execute commands with elevated privileges. Attacks on single-user systems are less likely to occur, as the attack must be carried out by the user on the user's own system. Multiuser systems have a higher risk of exploitation because folder permissions have an impact on all users of the device. For an attacker to exploit this vulnerability successfully, a second user must execute the locally installed malicious file to allow remote code execution to occur.
+
+CVE-2018-10768
+There is a NULL pointer dereference in the AnnotPath::getCoordsLength function in Annot.h in an Ubuntu package for Poppler 0.24.5. A crafted input will lead to a remote denial of service attack. Later Ubuntu packages such as for Poppler 0.41.0 are not affected.
+
+CVE-2012-1447
+The ELF file parser in Fortinet Antivirus 4.2.254.0, eSafe 7.0.17.0, Dr.Web 5.0.2.03300, and Panda Antivirus 10.0.2.7 allows remote attackers to bypass malware detection via an ELF file with a modified e_version field.  NOTE: this may later be SPLIT into multiple CVEs if additional information is published showing that the error occurred independently in different ELF parser implementations.
+
+CVE-2006-1200
+Direct static code injection vulnerability in add_link.txt in daverave Link Bank allows remote attackers to execute arbitrary PHP code via the url_name parameter, which is not sanitized before being stored in links.txt, which is later used in an include statement.
+
+CVE-2013-0434
+Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 through Update 11, 6 through Update 38, 5.0 through Update 38, and 1.4.2_40 and earlier, and OpenJDK 6 and 7, allows remote attackers to affect confidentiality via vectors related to JAXP.  NOTE: the previous information is from the February 2013 CPU. Oracle has not commented on claims from another vendor that this issue is related to the public declaration of the loadPropertyFile method in the JAXP FuncSystemProperty class, which allows remote attackers to obtain sensitive information.
+
+CVE-2017-14755
+OpenText Document Sciences xPression (formerly EMC Document Sciences xPression) v4.5SP1 Patch 13 (older versions might be affected as well) is prone to Cross-Site Scripting: /xAdmin/html/XPressoDoc, parameter: categoryId.
+
+CVE-2016-0492
+Unspecified vulnerability in the Oracle Application Testing Suite component in Oracle Enterprise Manager Grid Control 12.4.0.2 and 12.5.0.2 allows remote attackers to affect confidentiality and integrity via unknown vectors related to Load Testing for Web Apps, a different vulnerability than CVE-2016-0488.  NOTE: the previous information is from the January 2016 CPU. Oracle has not commented on third-party claims that this is a directory traversal vulnerability in the isAllowedUrl function, which allows remote attackers to bypass authentication via directory traversal sequences following a URI entry that does not require authentication, as demonstrated by olt/Login.do/../../olt/UploadFileUpload.do.
+
+CVE-2006-1910
+config.php in S9Y Serendipity 1.0 beta 2 allows remote attackers to inject arbitrary PHP code by editing values that are stored in config.php and later executed.  NOTE: the provenance of this information is unknown; the details are obtained solely from third party information.
+
+CVE-2004-1625
+pGina 1.7.6 and possibly older versions, when the Restart or Shutdown options are enabled on the login screen, allows remote attackers to cause a denial of service by connecting via Remote Desktop and clicking restart or shutdown.
+
+CVE-2018-8891
+Multiple stored cross-site scripting (XSS) vulnerabilities in the Management Console of BlackBerry UEM versions earlier than 12.9.1 could allow an attacker to store script commands that could later be executed in the context of another Management Console administrator.
+
+CVE-2006-4859
+Unrestricted file upload vulnerability in contact.html.php in the Contact (com_contact) component in Limbo (aka Lite Mambo) CMS 1.0.4.2L and earlier allows remote attackers to upload PHP code to the images/contact folder via a filename with a double extension in the contact_attach parameter in a contact option in index.php, which bypasses an insufficiently restrictive regular expression.
+
+CVE-2017-1000422
+Gnome gdk-pixbuf 2.36.8 and older is vulnerable to several integer overflow in the gif_get_lzw function resulting in memory corruption and potential code execution
+
+CVE-2016-6043
+Tivoli Storage Manager Operations Center could allow a local user to take over a previously logged in user due to session expiration not being enforced.
+
+CVE-2007-4485
+PHP remote file inclusion vulnerability in visitor.php in Butterfly online visitors counter 1.08, when used with certain older versions of PHP with improper SERVER superglobal handling, allows remote attackers to execute arbitrary PHP code via a URL in the _SERVER[DOCUMENT_ROOT] parameter.  NOTE: it could be argued that this vulnerability is caused by a problem in PHP and the proper fix should be in PHP; if so, then this should not be treated as a vulnerability in Butterfly online visitors counter.
+
+CVE-2017-14002
+GE Infinia/Infinia with Hawkeye 4 medical imaging systems all current versions are affected these devices use default or hard-coded credentials. Successful exploitation of this vulnerability may allow a remote attacker to bypass authentication and gain access to the affected devices.
+
+CVE-2017-2891
+An exploitable use-after-free vulnerability exists in the HTTP server implementation of Cesanta Mongoose 6.8. An ordinary HTTP POST request with a CGI target can cause a reuse of previously freed pointer potentially resulting in remote code execution. An attacker needs to send this HTTP request over the network to trigger this vulnerability.
+
+CVE-2017-1000007
+txAWS (all current versions) fail to perform complete certificate verification resulting in vulnerability to MitM attacks and information disclosure.
+
+CVE-2017-1000217
+Opencast 2.3.2 and older versions are vulnerable to script injections through media and metadata in the player and media module resulting in arbitrary code execution, fixed in 2.3.3 and 3.0.
+
+CVE-2017-15654
+Highly predictable session tokens in the HTTPd server in all current versions (<= 3.0.0.4.380.7743) of Asus asuswrt allow gaining administrative router access.
+
+CVE-2007-1669
+zoo decoder 2.10 (zoo-2.10), as used in multiple products including (1) Barracuda Spam Firewall 3.4 and later with virusdef before 2.0.6399, (2) Spam Firewall before 3.4 20070319 with virusdef before 2.0.6399o, and (3) AMaViS 2.4.1 and earlier, allows remote attackers to cause a denial of service (infinite loop) via a ZOO archive with a direntry structure that points to a previous file.
+
+CVE-2017-14006
+GE Xeleris versions 1.0,1.1,2.1,3.0,3.1, medical imaging systems, all current versions are affected, these devices use default or hard-coded credentials. Successful exploitation of this vulnerability may allow a remote attacker to bypass authentication and gain access to the affected devices.
+
+CVE-2000-0338
+Concurrent Versions Software (CVS) uses predictable temporary file names for locking, which allows local users to cause a denial of service by creating the lock directory before it is created for use by a legitimate CVS user.
+
+CVE-2017-5542
+Cross-site scripting (XSS) vulnerability in template/usererror.missing_extension.php in Symphony CMS before 2.6.10 allows remote attackers to inject arbitrary web script or HTML via the existing-folder parameter.
+
+CVE-2018-1000226
+Cobbler version Verified as present in Cobbler versions 2.6.11+, but code inspection suggests at least 2.0.0+ or possibly even older versions may be vulnerable contains a Incorrect Access Control vulnerability in XMLRPC API (/cobbler_api) that can result in Privilege escalation, data manipulation or exfiltration, LDAP credential harvesting. This attack appear to be exploitable via "network connectivity". Taking advantage of improper validation of security tokens in API endpoints. Please note this is a different issue than CVE-2018-10931.
+
+CVE-2017-9846
+Winmail Server 6.1 allows remote code execution by authenticated users who leverage directory traversal in a netdisk.php move_folder_file call to move a .php file from the FTP folder into a web folder.
+
+CVE-2018-3965
+An exploitable use-after-free vulnerability exists in the JavaScript engine of Foxit Software's Foxit PDF Reader version 9.1.0.5096. A specially crafted PDF document can trigger a previously freed object in memory to be reused, resulting in arbitrary code execution. An attacker needs to trick the user to open the malicious file to trigger this vulnerability. If the browser plugin extension is enabled, visiting a malicious site can also trigger the vulnerability.
+
+CVE-2017-18315
+Buffer over-read vulnerabilities in an older version of ASN.1 parser in Snapdragon Mobile in versions SD 600.
+
+CVE-2017-14008
+GE Centricity PACS RA1000, diagnostic image analysis, all current versions are affected these devices use default or hard-coded credentials. Successful exploitation of this vulnerability may allow a remote attacker to bypass authentication and gain access to the affected devices.
+
+CVE-2016-9132
+In Botan 1.8.0 through 1.11.33, when decoding BER data an integer overflow could occur, which would cause an incorrect length field to be computed. Some API callers may use the returned (incorrect and attacker controlled) length field in a way which later causes memory corruption or other failure.
+
+CVE-2007-3279
+PostgreSQL 8.1 and probably later versions, when the PL/pgSQL (plpgsql) language has been created, grants certain plpgsql privileges to the PUBLIC domain, which allows remote attackers to create and execute functions, as demonstrated by functions that perform local brute-force password guessing attacks, which may evade intrusion detection.
+
+CVE-2018-16715
+An issue was discovered in Absolute Software CTES Windows Agent through 1.0.0.1479. The security permissions on the %ProgramData%\CTES folder and sub-folders may allow write access to low-privileged user accounts. This allows unauthorized replacement of service program executable (EXE) or dynamically loadable library (DLL) files, causing elevated (SYSTEM) user access. Configuration control files or data files under this folder could also be similarly modified to affect service process behavior.
+
+CVE-2017-3792
+A vulnerability in a proprietary device driver in the kernel of Cisco TelePresence Multipoint Control Unit (MCU) Software could allow an unauthenticated, remote attacker to execute arbitrary code or cause a denial of service (DoS) condition. The vulnerability is due to improper size validation when reassembling fragmented IPv4 or IPv6 packets. An attacker could exploit this vulnerability by sending crafted IPv4 or IPv6 fragments to a port receiving content in Passthrough content mode. An exploit could allow the attacker to overflow a buffer. If successful, the attacker could execute arbitrary code or cause a DoS condition on the affected system. Cisco TelePresence MCU platforms TelePresence MCU 5300 Series, TelePresence MCU MSE 8510 and TelePresence MCU 4500 are affected when running software version 4.3(1.68) or later configured for Passthrough content mode. Cisco has released software updates that address this vulnerability. Workarounds that address this vulnerability are not available, but mitigations are available. Cisco Bug IDs: CSCuu67675.
+
+CVE-2018-1000868
+WeBid version up to current version 1.2.2 contains a Cross Site Scripting (XSS) vulnerability in user_login.php, register.php that can result in Javascript execution in the user's browser, injection of malicious markup into the page. This attack appear to be exploitable via The victim user must click a malicous link. This vulnerability appears to have been fixed in after commit 256a5f9d3eafbc477dcf77c7682446cc4b449c7f.
+
+CVE-2005-0367
+Multiple directory traversal vulnerabilities in ArGoSoft Mail Server 1.8.7.3 allow remote authenticated users to read, delete, or upload arbitrary files via a .. (dot dot) in (1) the filename of an e-mail attachment, (2) the _msgatt.rec file, (3) and the /msg, /delete, /folderadd, and /folderdelete operations for the Folder parameter.
+
+CVE-2016-0490
+Unspecified vulnerability in the Oracle Application Testing Suite component in Oracle Enterprise Manager Grid Control 12.4.0.2 and 12.5.0.2 allows remote attackers to affect confidentiality and integrity via unknown vectors related to Test Manager for Web Apps, a different vulnerability than CVE-2016-0487.  NOTE: the previous information is from the January 2016 CPU. Oracle has not commented on third-party claims that this is a directory traversal vulnerability in the UploadServlet servlet, which allows remote attackers to upload and execute arbitrary files via directory traversal sequences in a filename header.
+
+CVE-2017-15656
+Password are stored in plaintext in nvram in the HTTPd server in all current versions (<= 3.0.0.4.380.7743) of Asus asuswrt.
+
+CVE-2006-0217
+Multiple cross-site scripting (XSS) vulnerabilities in Ultimate Auction 3.67 allow remote attackers to inject arbitrary web script or HTML via the (1) item parameter in item.pl and (2) category parameter in itemlist.pl, which reflects the XSS in an error message. NOTE: the affected version might be wrong since the current version as of 20060116 is 3.6.1.
+
+CVE-2017-14757
+OpenText Document Sciences xPression (formerly EMC Document Sciences xPression) v4.5SP1 Patch 13 (older versions might be affected as well) is prone to SQL Injection: /xDashboard/html/jobhistory/downloadSupportFile.action, parameter: jobRunId. In order for this vulnerability to be exploited, an attacker must authenticate to the application first.
+
+CVE-2013-2422
+Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 17 and earlier and 6 Update 43 and earlier; and OpenJDK 6 and 7; allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Libraries.  NOTE: the previous information is from the April 2013 CPU. Oracle has not commented on claims from another vendor that this issue is related to improper method-invocation restrictions by the MethodUtil trampoline class, which allows remote attackers to bypass the Java sandbox.
+
+CVE-2005-3240
+Race condition in Microsoft Internet Explorer allows user-assisted attackers to overwrite arbitrary files and possibly execute code by tricking a user into performing a drag-and-drop action from certain objects, such as file objects within a folder view, then predicting the drag action, and re-focusing to a malicious window.
+
+CVE-2017-1000047
+rbenv (all current versions) is vulnerable to Directory Traversal in the specification of Ruby version resulting in arbitrary code execution
+
+CVE-2018-1000175
+A path traversal vulnerability exists in Jenkins HTML Publisher Plugin 1.15 and older in HtmlPublisherTarget.java that allows attackers able to configure the HTML Publisher build step to override arbitrary files on the Jenkins master.
+
+CVE-2018-4838
+A vulnerability has been identified in Siemens EN100 Ethernet module IEC 61850 variant (All versions < V4.30), EN100 Ethernet module PROFINET IO variant (All versions), EN100 Ethernet module Modbus TCP variant (All versions), EN100 Ethernet module DNP3 variant (All versions), EN100 Ethernet module IEC 104 variant (All versions). The web interface (TCP/80) of affected devices allows an unauthenticated user to upgrade or downgrade the firmware of the device, including to older versions with known vulnerabilities.
+
+CVE-2008-2589
+Unspecified vulnerability in the Oracle Portal component in Oracle Application Server 9.0.4.3, 10.1.2.2, and 10.1.4.1 has unknown impact and remote attack vectors. NOTE: the previous information was obtained from the Oracle July 2008 CPU. Oracle has not commented on reliable researcher claims that this issue is a SQL injection vulnerability in the WWV_RENDER_REPORT package that allows remote attackers to execute arbitrary SQL (PL/SQL) commands via the second argument to the SHOW procedure.
+
+CVE-2018-8022
+A carefully crafted invalid TLS handshake can cause Apache Traffic Server (ATS) to segfault. This affects version 6.2.2. To resolve this issue users running 6.2.2 should upgrade to 6.2.3 or later versions.
+
+CVE-2004-1862
+Multiple cross-site scripting (XSS) vulnerabilities in Extreme Messageboard (XMB) 1.8 SP3 and 1.9 beta allow remote attackers to inject arbitrary web script or HTML via the (1) xmbuser parameter to xmb.php, (2) folder parameter to u2u.php, (3) viewmost, replymost, or latest parameter to stats.php, (4) message or icons parameter to post.php, (5) threadlist, pagelinks, forumlist, navigation, or (6) forumdisplay parameter to forumdisplay.php.
+
+CVE-2009-1232
+Mozilla Firefox 3.0.8 and earlier 3.0.x versions allows remote attackers to cause a denial of service (memory corruption) via an XML document composed of a long series of start-tags with no corresponding end-tags. NOTE: it was later reported that 3.0.10 and earlier are also affected.
+
+CVE-2006-3144
+PHP remote file inclusion vulnerability in micro_cms_files/microcms-include.php in Implied By Design (IBD) Micro CMS 3.5 (aka 0.3.5) and earlier allows remote attackers to execute arbitrary PHP code via a URL in the microcms_path parameter.  NOTE: it was later reported that this can also be leveraged to include and execute arbitrary local files via .. (dot dot) sequences.
+
+CVE-2013-0425
+Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 through Update 11, 6 through Update 38, 5.0 through Update 38, and 1.4.2_40 and earlier, and OpenJDK 6 and 7, allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Libraries, a different vulnerability than CVE-2013-0428 and CVE-2013-0426.  NOTE: the previous information is from the February 2013 CPU. Oracle has not commented on claims from another vendor that this issue is related to incorrect "access control checks" in the logging API that allow remote attackers to bypass Java sandbox restrictions.
+
+CVE-2013-2417
+Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 17 and earlier, 6 Update 43 and earlier, and 5.0 Update 41 and earlier; and OpenJDK 6 and 7; allows remote attackers to affect availability via unknown vectors related to Networking.  NOTE: the previous information is from the April 2013 CPU. Oracle has not commented on claims from another vendor that this issue is related to an information leak involving InetAddress serialization. CVE has not investigated the apparent discrepancy between vendor reports regarding the impact of this issue.
+
+CVE-2018-1000086
+NPR Visuals Team Pym.js version versions 0.4.2 up to 1.3.1 contains a Cross ite Request Forgery (CSRF) vulnerability in Pym.js _onNavigateToMessage function. https://github.com/nprapps/pym.js/blob/master/src/pym.js#L573 that can result in Arbitrary javascript code execution. This attack appear to be exploitable via Attacker gains full javascript access to pages with Pym.js embeds when user visits an attacker crafted page.. This vulnerability appears to have been fixed in versions 1.3.2 and later.
+
+CVE-2018-1000225
+Cobbler version Verified as present in Cobbler versions 2.6.11+, but code inspection suggests at least 2.0.0+ or possibly even older versions may be vulnerable contains a Cross Site Scripting (XSS) vulnerability in cobbler-web that can result in Privilege escalation to admin.. This attack appear to be exploitable via "network connectivity". Sending unauthenticated JavaScript payload to the Cobbler XMLRPC API (/cobbler_api).
+
+CVE-2014-8398
+Multiple untrusted search path vulnerabilities in Corel FastFlick allow local users to execute arbitrary code and conduct DLL hijacking attacks via a Trojan horse (1) igfxcmrt32.dll, (2) ipl.dll, (3) MSPStyleLib.dll, (4) uFioUtil.dll, (5) uhDSPlay.dll, (6) uipl.dll, (7) uvipl.dll, (8) VC1DecDll.dll, or (9) VC1DecDll_SSE3.dll file that is located in the same folder as the file being processed.
+
+CVE-2006-0994
+Multiple Sophos Anti-Virus products, including Anti-Virus for Windows 5.x before 5.2.1 and 4.x before 4.05, when cabinet file inspection is enabled, allows remote attackers to execute arbitrary code via a CAB file with "invalid folder count values," which leads to heap corruption.
+
+CVE-2012-1463
+The ELF file parser in AhnLab V3 Internet Security 2011.01.18.00, Bitdefender 7.2, Quick Heal (aka Cat QuickHeal) 11.00, Command Antivirus 5.2.11.5, Comodo Antivirus 7424, eSafe 7.0.17.0, F-Prot Antivirus 4.6.2.117, F-Secure Anti-Virus 9.0.16160.0, McAfee Anti-Virus Scanning Engine 5.400.0.1158, Norman Antivirus 6.06.12, nProtect Anti-Virus 2011-01-17.01, and Panda Antivirus 10.0.2.7 allows remote attackers to bypass malware detection via an ELF file with a modified endianness field.  NOTE: this may later be SPLIT into multiple CVEs if additional information is published showing that the error occurred independently in different ELF parser implementations.
+
+CVE-2006-5627
+Multiple PHP remote file inclusion vulnerabilities in QnECMS 2.5.6 and earlier allow remote attackers to execute arbitrary PHP code via a URL in the adminfolderpath parameter to (1) headerscripts.php, (2) footerhome.php, and (3) footermain.php in admin/include/; (4) photogallery/headerscripts.php; and (5) footerhome.php, (6) footermain.php, (7) headermain.php, (8) sitemapfooter.php, and (9) sitemapheader.php in templates/.
+
+CVE-2018-11338
+Intuit Lacerte 2017 for Windows in a client/server environment transfers the entire customer list in cleartext over SMB, which allows attackers to (1) obtain sensitive information by sniffing the network or (2) conduct man-in-the-middle (MITM) attacks via unspecified vectors. The customer list contains each customer's full name, social security number (SSN), address, job title, phone number, Email address, spouse's phone/Email address, and other sensitive information. After the client software authenticates to the server database, the server sends the customer list. There is no need for further exploitation as all sensitive data is exposed. This vulnerability was validated on Intuit Lacerte 2017, however older versions of Lacerte may be vulnerable.
+
+CVE-2018-8024
+In Apache Spark 2.1.0 to 2.1.2, 2.2.0 to 2.2.1, and 2.3.0, it's possible for a malicious user to construct a URL pointing to a Spark cluster's UI's job and stage info pages, and if a user can be tricked into accessing the URL, can be used to cause script to execute and expose information from the user's view of the Spark UI. While some browsers like recent versions of Chrome and Safari are able to block this type of attack, current versions of Firefox (and possibly others) do not.
+
+CVE-2018-1000882
+WeBid version up to current version 1.2.2 contains a Directory Traversal vulnerability in getthumb.php that can result in Arbitrary Image File Read. This attack appear to be exploitable via HTTP GET Request. This vulnerability appears to have been fixed in after commit 256a5f9d3eafbc477dcf77c7682446cc4b449c7f.
+
+CVE-2014-8122
+Race condition in JBoss Weld before 2.2.8 and 3.x before 3.0.0 Alpha3 allows remote attackers to obtain information from a previous conversation via vectors related to a stale thread state.
+
+CVE-2008-1117
+Directory traversal vulnerability in the Notes (aka Flash Notes or instant messages) feature in tb2ftp.dll in Timbuktu Pro 8.6.5 for Windows, and possibly 8.7 for Mac OS X, allows remote attackers to upload files to arbitrary locations via a destination filename with a \ (backslash) character followed by ../ (dot dot slash) sequences. NOTE: this can be leveraged for code execution by writing to a Startup folder.  NOTE: this issue reportedly exists because of an incomplete fix for CVE-2007-4220.
+
+CVE-2017-14004
+GE GEMNet License server (EchoServer) all current versions are affected these devices use default or hard-coded credentials. Successful exploitation of this vulnerability may allow a remote attacker to bypass authentication and gain access to the affected devices.
+
+CVE-2009-1105
+The Java Plug-in in Java SE Development Kit (JDK) and Java Runtime Environment (JRE) 6 Update 12, 11, and 10 allows user-assisted remote attackers to cause a trusted applet to run in an older JRE version, which can be used to exploit vulnerabilities in that older version, aka CR 6706490.
+
+CVE-2017-14758
+OpenText Document Sciences xPression (formerly EMC Document Sciences xPression) v4.5SP1 Patch 13 (older versions might be affected as well) is prone to SQL Injection: /xAdmin/html/cm_doclist_view_uc.jsp, parameter: documentId. In order for this vulnerability to be exploited, an attacker must authenticate to the application first.
+
+CVE-2008-6022
+PHP remote file inclusion vulnerability in includes/todofleetcontrol.php in an older version of Xnova, possibly 0.8 sp1, allows remote attackers to execute arbitrary PHP code via a URL in the ugamela_root_path parameter.
+
+CVE-2006-1854
+** DISPUTED **  Multiple cross-site scripting (XSS) vulnerabilities in BluePay Manager 2.0 and earlier allow remote attackers to inject arbitrary web script or HTML during a login action via the (1) Account Name and (2) Username field.  NOTE: the vendor has disputed this vulnerability, saying that "it does not exist currently in the Bluepay 2.0 product," and older versions might not have been affected either.  As of 20060512, CVE has not formally investigated this dispute.
+
+CVE-2008-5445
+Unspecified vulnerability in the Oracle Secure Backup component in Oracle Secure Backup 10.2.0.2 allows remote attackers to affect availability via unknown vectors.  NOTE: the previous information was obtained from the January 2009 CPU.  Oracle has not commented on reliable researcher claims that this issue is a denial of service in observiced.exe via malformed private Protocol data that triggers a NULL pointer dereference.
+
+CVE-2013-2384
+Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 17 and earlier, 6 Update 43 and earlier, and 5.0 Update 41 and earlier; and OpenJDK 6 and 7; allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to 2D, a different vulnerability than CVE-2013-1569, CVE-2013-2383, and CVE-2013-2420. NOTE: the previous information is from the April 2013 CPU. Oracle has not commented on claims from another vendor that this issue is related to "font layout" in the International Components for Unicode (ICU) Layout Engine before 51.2.
+
+CVE-2005-3761
+Cross-site scripting (XSS) vulnerability in Exponent CMS 0.96.3 and later versions allows remote attackers to inject arbitrary web script or HTML via (1) Javascript in forms produced by the form generator or (2) the parameters to the installer.
+
+CVE-2017-1000243
+Jenkins Favorite Plugin 2.1.4 and older does not perform permission checks when changing favorite status, allowing any user to set any other user's favorites
+
+CVE-2018-9039
+In Octopus Deploy 2.0 and later before 2018.3.7, an authenticated user, with variable edit permissions, can scope some variables to targets greater than their permissions should allow. In other words, they can see machines beyond their team's scoped environments.
+
+CVE-2006-5840
+** DISPUTED **  Multiple SQL injection vulnerabilities in Abarcar Realty Portal allow remote attackers to execute arbitrary SQL commands via the (1) neid parameter to newsdetails.php, or the (2) slid parameter to slistl.php. NOTE: the cat vector is already covered by CVE-2006-2853.  NOTE: the vendor has notified CVE that the current version only creates static pages, and that slistl.php/slid never existed in any version.
+
+CVE-2012-4027
+Directory traversal vulnerability in Tridium Niagara AX Framework allows remote attackers to read files outside of the intended images, nav, and px folders by leveraging incorrect permissions, as demonstrated by reading the config.bog file.
+
+CVE-2018-5717
+Memory write mechanism in NCR S2 Dispenser controller before firmware version 0x0108 allows an unauthenticated user to upgrade or downgrade the firmware of the device, including to older versions with known vulnerabilities.
+
+CVE-2003-0126
+The web interface for SOHO Routefinder 550 firmware 4.63 and earlier, and possibly later versions, has a default "admin" account with a blank password, which could allow attackers on the LAN side to conduct unauthorized activities.
+
+CVE-2006-2222
+Buffer overflow in zawhttpd 0.8.23, and possibly previous versions, allows remote attackers to cause a denial of service (daemon crash) via a request for a URI composed of several "\" (backslash) characters.
+
+CVE-2009-1312
+Mozilla Firefox before 3.0.9 and SeaMonkey 1.1.17 do not block javascript: URIs in Refresh headers in HTTP responses, which allows remote attackers to conduct cross-site scripting (XSS) attacks via vectors related to (1) injecting a Refresh header or (2) specifying the content of a Refresh header. NOTE: it was later reported that Firefox 3.6 a1 pre and Mozilla 1.7.x and earlier are also affected.
+
+CVE-2016-9879
+An issue was discovered in Pivotal Spring Security before 3.2.10, 4.1.x before 4.1.4, and 4.2.x before 4.2.1. Spring Security does not consider URL path parameters when processing security constraints. By adding a URL path parameter with an encoded "/" to a request, an attacker may be able to bypass a security constraint. The root cause of this issue is a lack of clarity regarding the handling of path parameters in the Servlet Specification. Some Servlet containers include path parameters in the value returned for getPathInfo() and some do not. Spring Security uses the value returned by getPathInfo() as part of the process of mapping requests to security constraints. The unexpected presence of path parameters can cause a constraint to be bypassed. Users of Apache Tomcat (all current versions) are not affected by this vulnerability since Tomcat follows the guidance previously provided by the Servlet Expert group and strips path parameters from the value returned by getContextPath(), getServletPath(), and getPathInfo(). Users of other Servlet containers based on Apache Tomcat may or may not be affected depending on whether or not the handling of path parameters has been modified. Users of IBM WebSphere Application Server 8.5.x are known to be affected. Users of other containers that implement the Servlet specification may be affected.
+
+CVE-2017-14756
+OpenText Document Sciences xPression (formerly EMC Document Sciences xPression) v4.5SP1 Patch 13 (older versions might be affected as well) is prone to Cross-Site Scripting: /xAdmin/html/Deployment (cat_id).
+
+CVE-2007-4410
+ircu 2.10.12.05 and earlier does not properly synchronize a kick action in certain cross scenarios, which allows remote authenticated operators to prevent later kick or de-op actions from non-local ops.
+
+CVE-2016-10518
+A vulnerability was found in the ping functionality of the ws module before 1.0.0 which allowed clients to allocate memory by sending a ping frame. The ping functionality by default responds with a pong frame and the previously given payload of the ping frame. This is exactly what you expect, but internally ws always transforms all data that we need to send to a Buffer instance and that is where the vulnerability existed. ws didn't do any checks for the type of data it was sending. With buffers in node when you allocate it when a number instead of a string it will allocate the amount of bytes.
+
+CVE-2018-16297
+An exploitable use-after-free vulnerability exists in the JavaScript engine of Foxit Reader before 9.3 and PhantomPDF before 9.3, a different vulnerability than CVE-2018-16291, CVE-2018-16292, CVE-2018-16293, CVE-2018-16294, CVE-2018-16295, and CVE-2018-16296. A specially crafted PDF document can trigger a previously freed object in memory to be reused, resulting in arbitrary code execution. An attacker needs to trick the user to open the malicious file to trigger this vulnerability. If the browser plugin extension is enabled, visiting a malicious site can also trigger the vulnerability.
+
+CVE-2007-1862
+The recall_headers function in mod_mem_cache in Apache 2.2.4 does not properly copy all levels of header data, which can cause Apache to return HTTP headers containing previously used data, which could be used by remote attackers to obtain potentially sensitive information.
+
+CVE-2017-9001
+Aruba ClearPass 6.6.3 and later includes a feature called "SSH Lockout", which causes ClearPass to lock accounts with too many login failures through SSH. When this feature is enabled, an unauthenticated remote command execution vulnerability is present which could allow an unauthenticated user to execute arbitrary commands on the underlying operating system with "root" privilege level. This vulnerability is only present when a specific feature has been enabled. The SSH Lockout feature is not enabled by default, so only systems which have enabled this feature are vulnerable.
+
+CVE-2018-1000867
+WeBid version up to current version 1.2.2 contains a SQL Injection vulnerability in All five yourauctions*.php scripts that can result in Database Read via Blind SQL Injection. This attack appear to be exploitable via HTTP Request. This vulnerability appears to have been fixed in after commit 256a5f9d3eafbc477dcf77c7682446cc4b449c7f.
+
+CVE-2007-4408
+ircu 2.10.12.05 and earlier ignores timestamps in bounces, which allows remote attackers to take over a channel during a netjoin by causing a bounce while a server with an older version of the channel is linking.
+
+CVE-2005-1657
+Multiple directory traversal vulnerabilities in Mercur Messaging 2005 SP2 allow remote attackers to perform unauthorized file operations via the Folder.Id parameter to (1) deletefolder.ctml, (2) deletemessage.ctml, (3) origmessage.ctml, or (4) readmessage.ctml, the Message.Id parameter to editmessage.ctml, or the (5) Message.Command parameter to messages.ctml.
+
+CVE-2010-3199
+Untrusted search path vulnerability in TortoiseSVN 1.6.10, Build 19898 and earlier allows local users, and possibly remote attackers, to execute arbitrary code and conduct DLL hijacking attacks via a Trojan horse dwmapi.dll that is located in the same folder as a file that is processed by Tortoise.  NOTE: this is only a vulnerability when a file extension is associated with TortoiseProc or TortoiseMerge, which is not the default.
+
+CVE-2009-0652
+The Internationalized Domain Names (IDN) blacklist in Mozilla Firefox 3.0.6 and other versions before 3.0.9; Thunderbird before 2.0.0.21; and SeaMonkey before 1.1.15 does not include box-drawing characters, which allows remote attackers to spoof URLs and conduct phishing attacks, as demonstrated by homoglyphs of the / (slash) and ? (question mark) characters in a subdomain of a .cn domain name, a different vulnerability than CVE-2005-0233.  NOTE: some third parties claim that 3.0.6 is not affected, but much older versions perhaps are affected.
+
+CVE-2017-12852
+The numpy.pad function in Numpy 1.13.1 and older versions is missing input validation. An empty list or ndarray will stick into an infinite loop, which can allow attackers to cause a DoS attack.
+
+CVE-2013-0244
+Cross-site scripting (XSS) vulnerability in Drupal 6.x before 6.28 and 7.x before 7.19, when running with older versions of jQuery that are vulnerable to CVE-2011-4969, allows remote attackers to inject arbitrary web script or HTML via vectors involving unspecified Javascript functions that are used to select DOM elements.
+
+CVE-2005-1402
+Integer signedness error in certain older versions of the NeL library, as used in Mtp-Target 1.2.2 and earlier, and possibly other products, allows remote attackers to cause a denial of service (memory consumption or server crash) via a negative value in a STLport call, which is not caught by a signed comparison.
+
+CVE-2013-2423
+Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 17 and earlier, and OpenJDK 7, allows remote attackers to affect integrity via unknown vectors related to HotSpot.  NOTE: the previous information is from the April 2013 CPU. Oracle has not commented on claims from the original researcher that this vulnerability allows remote attackers to bypass permission checks by the MethodHandles method and modify arbitrary public final fields using reflection and type confusion, as demonstrated using integer and double fields to disable the security manager.
+
+CVE-2017-14458
+An exploitable use-after-free vulnerability exists in the JavaScript engine of Foxit Software's Foxit PDF Reader version 8.3.2.25013. A specially crafted PDF document can trigger a previously freed object in memory to be reused, resulting in arbitrary code execution. An attacker needs to trick the user to open the malicious file to trigger this vulnerability. If the browser plugin extension is enabled, visiting a malicious site can also trigger the vulnerability.
+
+CVE-2018-0037
+Junos OS routing protocol daemon (RPD) process may crash and restart or may lead to remote code execution while processing specific BGP NOTIFICATION messages. By continuously sending crafted BGP NOTIFICATION messages, an attacker can repeatedly crash the RPD process causing a sustained Denial of Service. Due to design improvements, this issue does not affect Junos OS 16.1R1, and all subsequent releases. This issue only affects the receiving BGP device and is non-transitive in nature. Affected releases are Juniper Networks Junos OS: 15.1F5 versions starting from 15.1F5-S7 and all subsequent releases; 15.1F6 versions starting from 15.1F6-S3 and later releases prior to 15.1F6-S10; 15.1F7 versions 15.1 versions starting from 15.1R5 and later releases, including the Service Releases based on 15.1R5 and on 15.1R6 prior to 15.1R6-S6 and 15.1R7;
+
+CVE-2007-3295
+Directory traversal vulnerability in Yet another Bulletin Board (YaBB) 2.1 and earlier allows remote authenticated users to execute arbitrary Perl code via a .. (dot dot) in the userlanguage profile setting, which sets the userlanguage key of the member hash, and is propagated to the language variable in (1) HelpCentre.pl and (2) ICQPager.pl, (3) the use_lang variable in Subs.pl, and the actlang variable in (4) Post.pl and (5) InstantMessage.pl; as demonstrated by pointing userlanguage to the English folder, modifying English/HelpCentre.lng file to contain Perl statements, and then invoking the help action in YaBB.pl.
+
+CVE-2014-3988
+Cross-site scripting (XSS) vulnerability in index.php in SunHater KCFinder 3.11 and earlier allows remote attackers to inject arbitrary web script or HTML via (1) file or (2) directory (folder) name of an uploaded file.
+
+CVE-2017-1000445
+ImageMagick 7.0.7-1 and older version are vulnerable to null pointer dereference in the MagickCore component and might lead to denial of service
+
+CVE-2004-1875
+Multiple cross-site scripting (XSS) vulnerabilities in cPanel 9.1.0-R85 allow remote attackers to inject arbitrary web script or HTML via the (1) email parameter to testfile.html, (2) file parameter to erredit.html, (3) dns parameter to dnslook.html, (4) account parameter to ignorelist.html, (5) account parameter to showlog.html, (6) db parameter to repairdb.html, (7) login parameter to doaddftp.html (8) account parameter to editmsg.htm, or (9) ip parameter to del.html.  NOTE: the dnslook.html vector was later reported to exist in cPanel 10.
+
+CVE-2017-3935
+Network Data Loss Prevention is vulnerable to MIME type sniffing which allows older versions of Internet Explorer to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the intended content type.
+
+CVE-2005-2771
+WRQ Reflection for Secure IT Windows Server 6.0 (formerly known as F-Secure SSH server) processes access and deny lists in a case-sensitive manner, when previous versions were case-insensitive, which might allow remote attackers to bypass intended restrictions and login to accounts that should be denied.
+
+CVE-2018-1000195
+A server-side request forgery vulnerability exists in Jenkins 2.120 and older, LTS 2.107.2 and older in ZipExtractionInstaller.java that allows users with Overall/Read permission to have Jenkins submit a HTTP GET request to an arbitrary URL and learn whether the response is successful (200) or not.
+
+CVE-2018-1000173
+A session fixaction vulnerability exists in Jenkins Google Login Plugin 1.3 and older in GoogleOAuth2SecurityRealm.java that allows unauthorized attackers to impersonate another user if they can control the pre-authentication session.
+
+CVE-2006-3850
+** DISPUTED **  PHP remote file inclusion vulnerability in upgrader.php in Vanilla CMS 1.0.1 and earlier, when /conf/old_settings.php exists, allows remote attackers to execute arbitrary PHP code via a URL in the RootDirectory parameter.  NOTE: this issue has been disputed by a third party who states that the RootDirectory parameter is initialized before being used, for version 1.0.  CVE analysis concurs with the dispute, but it is unclear whether older versions are affected.
+
+CVE-2007-0420
+BEA WebLogic Server 9.0, 9.1, and 9.2 Gold allows remote attackers to obtain sensitive information via malformed HTTP requests, which reveal data from previous requests.
+
+CVE-2016-3509
+Unspecified vulnerability in the Oracle Agile PLM component in Oracle Supply Chain Products Suite 9.3.4 and 9.3.5 allows remote authenticated users to affect confidentiality and integrity via vectors related to File Folders / URL Attachment.
+
+CVE-2001-0435
+The split key mechanism used by PGP 7.0 allows a key share holder to obtain access to the entire key by setting the "Cache passphrase while logged on" option and capturing the passphrases of other share holders as they authenticate.
+
+CVE-2013-6079
+Buffer overflow in MostGear Soft Easy LAN Folder Share 3.2.0.100 allows local users to cause a denial of service (application crash) and possibly execute arbitrary code via a long string in the (1) registration code field in the activate license window or the (2) HKLM\SOFTWARE\MostGear\EasyLanFolderShare_V1\License registry key. NOTE: it is not clear from the original report whether this issue crosses privilege boundaries.  If not, then it should not be included in CVE.
+
+CVE-2017-14754
+OpenText Document Sciences xPression (formerly EMC Document Sciences xPression) v4.5SP1 Patch 13 (older versions might be affected as well) is prone to Arbitrary File Read: /xAdmin/html/cm_datasource_group_xsd.jsp, parameter: xsd_datasource_schema_file filename. In order for this vulnerability to be exploited, an attacker must authenticate to the application first.
+
+CVE-2018-7159
+The HTTP parser in all current versions of Node.js ignores spaces in the `Content-Length` header, allowing input such as `Content-Length: 1 2` to be interpreted as having a value of `12`. The HTTP specification does not allow for spaces in the `Content-Length` value and the Node.js HTTP parser has been brought into line on this particular difference. The security risk of this flaw to Node.js users is considered to be VERY LOW as it is difficult, and may be impossible, to craft an attack that makes use of this flaw in a way that could not already be achieved by supplying an incorrect value for `Content-Length`. Vulnerabilities may exist in user-code that make incorrect assumptions about the potential accuracy of this value compared to the actual length of the data supplied. Node.js users crafting lower-level HTTP utilities are advised to re-check the length of any input supplied after parsing is complete.
+
+CVE-2017-1000403
+Jenkins Speaks! Plugin, all current versions, allows users with Job/Configure permission to run arbitrary Groovy code inside the Jenkins JVM, effectively elevating privileges to Overall/Run Scripts.
+
+CVE-2016-3533
+Unspecified vulnerability in the Oracle Knowledge Management component in Oracle E-Business Suite 12.1.1, 12.1.2, 12.1.3, 12.2.3, 12.2.4, and 12.2.5 allows remote attackers to affect integrity via vectors related to Search. NOTE: the previous information is from the July 2016 CPU. Oracle has not commented on third-party claims that this issue involves multiple open redirect vulnerabilities, which allow remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via unspecified vectors.
+
+CVE-2004-9999
+** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate has been used as a placeholder by multiple organizations for multiple issues, but it is invalid.  Notes: All CVE users should search CVE for the proper identifier.  All references and descriptions in this candidate have been removed to prevent accidental usage.
+
+CVE-2013-2429
+Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 17 and earlier, 6 Update 43 and earlier, and 5.0 Update 41 and earlier; and OpenJDK 6 and 7; allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to ImageIO.  NOTE: the previous information is from the April 2013 CPU. Oracle has not commented on claims from another vendor that this issue is related to "JPEGImageWriter state corruption" when using native code, which triggers memory corruption.
+
+CVE-2017-17759
+Conarc iChannel allows remote attackers to obtain sensitive information, modify the configuration, or cause a denial of service (by deleting the configuration) via a wc.dll?wwMaint~EditConfig request (which reaches an older version of a West Wind Web Connection HTTP service).
+
+CVE-2018-16295
+An exploitable use-after-free vulnerability exists in the JavaScript engine of Foxit Reader before 9.3 and PhantomPDF before 9.3, a different vulnerability than CVE-2018-16291, CVE-2018-16292, CVE-2018-16293, CVE-2018-16294, CVE-2018-16296, and CVE-2018-16297. A specially crafted PDF document can trigger a previously freed object in memory to be reused, resulting in arbitrary code execution. An attacker needs to trick the user to open the malicious file to trigger this vulnerability. If the browser plugin extension is enabled, visiting a malicious site can also trigger the vulnerability.
+
+CVE-2006-0219
+The original distribution of MyBulletinBoard (MyBB) to update from older versions to 1.0.2 omits or includes older versions of certain critical files, which allows attackers to conduct (1) SQL injection attacks via an attachment name that is not properly handled by inc/functions_upload.php (CVE-2005-4602), and possibly (2) other attacks related to threadmode in usercp.php.
+
+CVE-2005-2617
+The syscall32_setup_pages function in syscall32.c for Linux kernel 2.6.12 and later, on the 64-bit x86 platform, does not check the return value of the insert_vm_struct function, which allows local users to trigger a memory leak via a 32-bit application with crafted ELF headers.
+
+CVE-2017-5948
+An issue was discovered on OnePlus One, X, 2, 3, and 3T devices. OxygenOS and HydrogenOS are vulnerable to downgrade attacks. This is due to a lenient 'updater-script' in OTAs that does not check that the current version is lower than or equal to the given image's. Downgrades can occur even on locked bootloaders and without triggering a factory reset, allowing for exploitation of now-patched vulnerabilities with access to user data. This vulnerability can be exploited by a Man-in-the-Middle (MiTM) attacker targeting the update process. This is possible because the update transaction does not occur over TLS (CVE-2016-10370). In addition, a physical attacker can reboot the phone into recovery, and then use 'adb sideload' to push the OTA (on OnePlus 3/3T 'Secure Start-up' must be off).
+
+CVE-2006-3469
+Format string vulnerability in time.cc in MySQL Server 4.1 before 4.1.21 and 5.0 before 1 April 2006 allows remote authenticated users to cause a denial of service (crash) via a format string instead of a date as the first parameter to the date_format function, which is later used in a formatted print call to display the error message.
+
+CVE-2018-7884
+An issue was discovered in DisplayLink Core Software Cleaner Application 8.2.1956. When the drivers are updated to a newer version, the product launches a process as SYSTEM to uninstall the old version: cl_1956.exe is run as SYSTEM on the %systemroot%\Temp folder, where any user can write a DLL (e.g., version.dll) to perform DLL Hijacking and elevate privileges to SYSTEM.
+
+CVE-2006-4878
+Directory traversal vulnerability in footer.php in David Bennett PHP-Post (PHPp) 1.0 and earlier allows remote attackers to read and include arbitrary local files via a .. (dot dot) sequence in the template parameter.  NOTE: this was later reported to affect 1.0.1, and demonstrated for code execution by uploading and accessing an avatar file.
+
+CVE-2007-2056
+** REJECT **  The getlock function in aimage/aimage.cpp in AFFLIB 2.2.8 and earlier allows local users to overwrite arbitrary files via a symlink attack on temporary lock files (aka "time-of-check-time-of-use file race"). NOTE: the researcher has retracted the original advisory, stating that "the portion of vulnerable code is not called in any current version of AFFLIB and is therefore not exploitable."
+
+CVE-2013-4432
+Mahara before 1.5.13, 1.6.x before 1.6.8, and 1.7.x before 1.7.4 does not properly restrict access to folders, which allows remote authenticated users to read arbitrary folders (1) by leveraging an active folder tab loaded before permissions were removed or (2) via the folder parameter to artefact/file/groupfiles.php.
+
+CVE-2008-1845
+The Korn shell (aka mksh) before R33d on MirOS (aka MirBSD) does not flush the tty's I/O when invoking mksh in a new terminal, which allows local users to gain privileges by opening a virtual terminal and entering command sequences, which might later be executed in opportunistic circumstances by a different user who launches mksh and specifies that terminal with the -T option.
+
+CVE-2005-1671
+The Logfile feature in Yahoo! Messenger 5.x through 6.0 can be activated by a YMSGR: URL and writes all output to a single ypager.log file, even when there are multiple users, and does not properly warn later users that the feature has been enabled, which allows local users to obtain sensitive information from other users.
+
+CVE-2017-15653
+Improper administrator IP validation after his login in the HTTPd server in all current versions (<= 3.0.0.4.380.7743) of Asus asuswrt allows an unauthorized user to execute any action knowing administrator session token by using a specific User-Agent string.
+
+CVE-2011-1846
+IBM DB2 9.5 before FP7 and 9.7 before FP4 on Linux, UNIX, and Windows does not properly revoke role membership from groups, which allows remote authenticated users to execute non-DDL statements by leveraging previous inherited possession of a role, a different vulnerability than CVE-2011-0757.  NOTE: some of these details are obtained from third party information.
+
+CVE-1999-0163
+In older versions of Sendmail, an attacker could use a pipe character to execute root commands.
+
+CVE-2017-14759
+OpenText Document Sciences xPression (formerly EMC Document Sciences xPression) v4.5SP1 Patch 13 (older versions might be affected as well) is prone to an XML External Entity vulnerability: /xFramework/services/QuickDoc.QuickDocHttpSoap11Endpoint/. An unauthenticated user is able to read directory listings or system files, or cause SSRF or Denial of Service.
+
+CVE-2017-15139
+A vulnerability was found in openstack-cinder releases up to and including Queens, allowing newly created volumes in certain storage volume configurations to contain previous data. It specifically affects ScaleIO volumes using thin volumes and zero padding. This could lead to leakage of sensitive information between tenants.
+
+CVE-2003-0398
+Vignette StoryServer 4 and 5, and Vignette V/5 and V/6, with the SSI EXEC feature enabled, allows remote attackers to execute arbitrary code via a text variable to a Vignette Application that is later displayed.
+
+CVE-2014-8511
+Buffer overflow in an ActiveX control in Atx45.ocx in Schneider Electric ProClima before 6.1.7 allows remote attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2014-8512.  NOTE: this may be clarified later based on details provided by researchers.
+
+CVE-2007-1850
+Directory traversal vulnerability in classes/captcha/captcha.jpg.php in Drake CMS allows remote attackers to read arbitrary files or list arbitrary directories, and obtain the installation path, via a .. (dot dot) in the d_private parameter.  NOTE: Drake CMS has only a beta version available, and the vendor has previously stated "We do not consider security reports valid until the first official release of Drake CMS."
+
+CVE-2004-1719
+Multiple cross-site scripting (XSS) vulnerabilities in Merak Webmail Server 5.2.7 allow remote attackers to inject arbitrary web script or HTML via the (1) category, (2) cserver, (3) ext, (4) global, (5) showgroups, (6) or showlite parameters to address.html, or the (7) spage or (8) autoresponder parameters to settings.html, the (9) folder parameter to readmail.html, or the (10) attachmentpage_text_error parameter to attachment.html, (11) folder, (12) ct, or (13) cv parameters to calendar.html, (14) an <img> tag, or (15) the subject of an e-mail message.
+
+CVE-2004-1553
+SQL injection vulnerability in aspWebAlbum allows remote attackers to execute arbitrary SQL statements via (1) the username field on the login page or (2) the cat parameter to album.asp.  NOTE: it was later reported that vector 1 affects aspWebAlbum 3.2, and the vector involves the txtUserName parameter in a processlogin action to album.asp, as reachable from the login action.
+
+CVE-2018-3041
+Vulnerability in the Oracle FLEXCUBE Enterprise Limits and Collateral Management component of Oracle Financial Services Applications (subcomponent: Infrastructure). Supported versions that are affected are 12.3.0, 14.0.0 and 14.1.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle FLEXCUBE Enterprise Limits and Collateral Management. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle FLEXCUBE Enterprise Limits and Collateral Management. CVSS 3.0 Base Score 6.5 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H).
+
+CVE-2017-6033
+A DLL Hijacking issue was discovered in Schneider Electric Interactive Graphical SCADA System (IGSS) Software, Version 12 and previous versions. The software will execute a malicious file if it is named the same as a legitimate file and placed in a location that is earlier in the search path.
+
+CVE-2004-0964
+Buffer overflow in Zinf 2.2.1 on Windows, and other older versions for Linux, allows remote attackers or local users to execute arbitrary code via certain values in a .pls file.

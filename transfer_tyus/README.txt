@@ -1,0 +1,3 @@
+The first 6000 were tagged by hand, then passed through the CRF model (cross-validation). You can see what the comparison looks like in the 'first 6000 [comparison]' file. The next 3000 tags were tagged later, completing the rest of the tagging in the first 9000.
+
+The second 9000 was first tagged by the model before being tagged by a human. These predicted tags (on the second 9000) were trained on the first 9000. This is why the predicted tags on the second 9000 do not perform very well. 
